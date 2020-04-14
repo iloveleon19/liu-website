@@ -1,0 +1,2731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- jQuery 3.3.1 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Slide -->
+  <!--  Compressed Styles -->
+  <!-- <link href="css/slides.min.css?41331" rel="stylesheet" type="text/css"> -->
+  <link href="css/slides.css?41331" rel="stylesheet" type="text/css">
+  <!-- Compressed Scripts -->
+  <!-- <script src="js/slides.min.js?41331" type="text/javascript"></script> -->
+  <script src="js/slides.js?41331" type="text/javascript"></script>
+  <script src="js/plugins.js?41331" type="text/javascript"></script>
+
+  <title>劉承鑫建築事務所</title>
+</head>
+<body class="slides chain simplifiedMobile animated">
+  <svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none" id="customSvgLibrary">
+
+    <symbol id="logo" viewBox="0 0 106 31"><title>Slides Framework</title><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
+    
+    <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
+
+    <symbol id="arrow-left" viewBox="0 0 29 56"><path d="M28.7.3c.4.4.4 1 0 1.4l-26.3 26.3 26.3 26.3c.4.4.4 1 0 1.4-.4.4-1 .4-1.4 0l-27-27c-.4-.4-.4-1 0-1.4l27-27c.3-.3 1-.4 1.4 0z"/></symbol>
+    
+    <symbol id="arrow-right" viewBox="0 0 29 56"><path d="M.3 55.7c-.4-.4-.4-1 0-1.4l26.3-26.3-26.3-26.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l27 27c.4.4.4 1 0 1.4l-27 27c-.3.3-1 .4-1.4 0z"/></symbol>
+
+    <symbol id="back" viewBox="0 0 20 20"><path d="M2.3 10.7l5 5c.4.4 1 .4 1.4 0s.4-1 0-1.4l-3.3-3.3h11.6c.6 0 1-.4 1-1s-.4-1-1-1h-11.6l3.3-3.3c.4-.4.4-1 0-1.4-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-5 5c-.2.2-.3.5-.3.7 0 .2.1.5.3.7z"/></symbol>
+    
+    <symbol id="menu" viewBox="0 0 18 18"><path d="M16 5h-14c-.6 0-1-.4-1-1 0-.5.4-1 1-1h14c.5 0 1 .4 1 1s-.4 1-1 1zm-14 5h14c.5 0 1-.4 1-1 0-.5-.4-1-1-1h-14c-.6 0-1 .4-1 1s.4 1 1 1zm14 3h-14c-.5 0-1 .4-1 1 0 .5.4 1 1 1h14c.5 0 1-.4 1-1s-.4-1-1-1z"/></symbol>
+    
+    <symbol id="share" viewBox="0 0 18 18"><path d="M16 8c-.6 0-1 .4-1 1v6h-12v-6c0-.6-.4-1-1-1s-1 .4-1 1v6c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-6c0-.6-.4-1-1-1zm-2.3-2.3c.4-.4.4-1 0-1.4l-4-4c-.4-.4-1-.4-1.4 0l-4 4c-.4.4-.4 1 0 1.4s1 .4 1.4 0l2.3-2.3v7.6c0 .6.4 1 1 1s1-.4 1-1v-7.6l2.3 2.3c.4.4 1 .4 1.4 0z"/></symbol>
+
+    <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 18c-.2 0-.5-.1-.7-.3l-11-10c-.4-.4-.4-1-.1-1.4.4-.4 1-.4 1.4-.1l10.4 9.4 10.3-9.4c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-11 10c-.1.2-.4.3-.6.3z"/></symbol>
+    
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M11.9 5.9c.2 0 .5.1.7.3l11 10c.4.4.4 1 .1 1.4-.4.4-1 .4-1.4.1l-10.4-9.4-10.3 9.4c-.4.4-1 .3-1.4-.1-.4-.4-.3-1 .1-1.4l11-10c.1-.2.4-.3.6-.3z"/></symbol>
+    
+    <symbol id="arrow-top" viewBox="0 0 18 18"><path d="M15.7 7.3l-6-6c-.4-.4-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0l4.3-4.3v11.6c0 .6.4 1 1 1s1-.4 1-1v-11.6l4.3 4.3c.2.2.4.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4z"/></symbol>
+    
+    <symbol id="play" viewBox="0 0 30 30"><path d="M7 30v-30l22 15z"/></symbol>
+    
+    <symbol id="chat" viewBox="0 0 18 18"><path d="M5,17c-0.2,0-0.3,0-0.4-0.1C4.2,16.7,4,16.4,4,16v-2H2c-1.1,0-2-0.9-2-2V3c0-1.1,0.9-2,2-2h14c1.1,0,2,0.9,2,2v9 c0,1.1-0.9,2-2,2H9.3l-3.7,2.8C5.4,16.9,5.2,17,5,17z M2,12h3.5C5.8,12,6,12.2,6,12.5V14l2.4-1.8C8.6,12.1,8.8,12,9,12h7V3H2V12z M13,7H5C4.4,7,4,6.6,4,6s0.4-1,1-1h8c0.6,0,1,0.4,1,1S13.6,7,13,7z M13,10H5c-0.6,0-1-0.4-1-1s0.4-1,1-1h8c0.6,0,1,0.4,1,1 S13.6,10,13,10z"/></symbol>
+
+    <symbol id="mail" viewBox="0 0 18 18"><path d="M16 2h-14c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-10c0-1.1-.9-2-2-2zm0 2v.5l-7 4.3-7-4.4v-.4h14zm-14 10v-7.2l6.5 4c.1.1.3.2.5.2s.4-.1.5-.2l6.5-4v7.2h-14z"/></symbol>
+
+    <symbol id="sound-on" viewBox="0 0 18 18"><path d="M8.5,0.1C8.1-0.1,7.7,0,7.4,0.2L3.7,3H2C0.9,3,0,3.9,0,5v6c0,1.1,0.9,2,2,2h1.7l3.7,2.8C7.6,15.9,7.8,16,8,16 c0.2,0,0.3,0,0.4-0.1C8.8,15.7,9,15.4,9,15V1C9,0.6,8.8,0.3,8.5,0.1z M7,13l-2.4-1.8C4.4,11.1,4.2,11,4,11l-2,0l0-6h2 c0.2,0,0.4-0.1,0.6-0.2L7,3V13z M11.7,9.9l0.7,1.9C13.9,11.2,15,9.7,15,8c0-1.7-1.1-3.2-2.7-3.8l-0.7,1.9C12.5,6.4,13,7.2,13,8C13,8.9,12.5,9.6,11.7,9.9z M12.2,1.1l-0.3,2C14.3,3.5,16,5.6,16,8s-1.8,4.5-4.2,4.9l0.3,2C15.6,14.3,18,11.4,18,8C18,4.6,15.6,1.7,12.2,1.1z"/></symbol>
+    
+    <symbol id="sound-off" viewBox="0 0 18 18"><path d="M15.9,8l1.8-1.8c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-1.8,1.8l-1.8-1.8c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4L13.1,8l-1.8,1.8 c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l1.8-1.8l1.8,1.8c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L15.9,8z M8.5,0.1C8.1-0.1,7.7,0,7.4,0.2L3.7,3H2C0.9,3,0,3.9,0,5v6c0,1.1,0.9,2,2,2h1.7l3.7,2.8C7.6,15.9,7.8,16,8,16 c0.2,0,0.3,0,0.4-0.1C8.8,15.7,9,15.4,9,15V1C9,0.6,8.8,0.3,8.5,0.1z M7,13l-2.4-1.8C4.4,11.1,4.2,11,4,11l-2,0l0-6h2 c0.2,0,0.4-0.1,0.6-0.2L7,3V13z"/></symbol>
+    
+    <!-- social -->
+    <symbol id="apple" viewBox="-1 1 24 24"><path d="M17.6 13.8c0-3 2.5-4.5 2.6-4.6-1.4-2.1-3.6-2.3-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-.9 0-2.4-1.1-4-1-2 0-3.9 1.2-5 3-2.1 3.7-.5 9.1 1.5 12.1 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 3.9-1s2.4 1 4 1 2.7-1.5 3.7-2.9c1.2-1.7 1.6-3.3 1.7-3.4-.1-.1-3.2-1.3-3.2-4.9zm-3.1-9c.8-1 1.4-2.4 1.2-3.8-1.2 0-2.7.8-3.5 1.8-.8.9-1.5 2.3-1.3 3.7 1.4.1 2.8-.7 3.6-1.7z"/></symbol>
+
+    <symbol id="dribbble" viewBox="0 0 24 24"><path d="M12 0c-6.7 0-12 5.3-12 12s5.3 12 12 12 12-5.3 12-12-5.3-12-12-12zm7.9 5.7c1.3 1.7 2.1 3.9 2.3 6.1-.4-.1-2.4-.4-4.7-.4-.8 0-1.5 0-2.3.1 0-.1-.1-.3-.3-.5l-.7-1.5c3.7-1.4 5.3-3.4 5.7-3.8zm-7.9-3.8c2.5 0 4.9.9 6.7 2.5-.3.4-1.9 2.3-5.2 3.6-1.6-2.9-3.3-5.3-3.7-5.9.6-.1 1.4-.2 2.2-.2zm-4.4 1c.4.6 2.1 3 3.7 5.8-4.4 1.2-8.2 1.2-9.2 1.2h-.1c.8-3.1 2.9-5.6 5.6-7zm-5.7 9.1v-.3h.3c1.2 0 5.6-.1 10.1-1.5l.8 1.6c-.1 0-.3 0-.4.1-5.1 1.6-7.9 6-8.3 6.7-1.6-1.7-2.5-4.1-2.5-6.6zm10.1 10.1c-2.3 0-4.4-.8-6.1-2.1.3-.5 2.4-4.4 7.9-6.3 1.3 3.6 2 6.7 2.1 7.6-1.2.6-2.6.8-3.9.8zm5.7-1.8c-.1-.8-.7-3.6-2-7.1.7-.1 1.3-.1 2-.1 2.1 0 3.7.4 4.1.5-.3 2.8-1.8 5.2-4.1 6.7z"/></symbol>
+
+    <symbol id="facebook" viewBox="0 0 24 24"><path d="M24 1.3v21.3c0 .7-.6 1.3-1.3 1.3h-6.1v-9.3h3.1l.5-3.6h-3.6v-2.2c0-1.1.3-1.8 1.8-1.8h1.9v-3.2c-.3 0-1.5-.1-2.8-.1-2.8 0-4.7 1.7-4.7 4.8v2.7h-3.1v3.6h3.1v9.2h-11.5c-.7 0-1.3-.6-1.3-1.3v-21.4c0-.7.6-1.3 1.3-1.3h21.3c.8 0 1.4.6 1.4 1.3z"/></symbol>
+
+    <symbol id="facebook2" viewBox="0 0 512 512"><path d="M288 176v-64c0-17.664 14.336-32 32-32h32v-80h-64c-53.024 0-96 42.976-96 96v80h-64v80h64v256h96v-256h64l32-80h-96z"/></symbol>
+    
+    <symbol id="fb-like" viewBox="0 0 20 20"><path d="M0 8v12h5v-12h-5zm2.5 10.8c-.4 0-.8-.3-.8-.8 0-.4.3-.8.8-.8s.8.3.8.8c0 .4-.4.8-.8.8zm3.5-.8h9.5c1.1 0 1.7-1 1.7-1.7 0-.3-.4-1-.4-1 1.4-.3 1.7-1.2 1.7-1.7-.1-.5-.3-.9-.5-1 1-.4 1.5-1.1 1.4-1.9-.1-.8-1-1.5-1-1.5 1-.6.9-1.5.9-1.5-.3-1.3-1.5-1.7-1.7-1.7h-5.6s.3-.5.3-2.4-1.3-3.6-2.6-3.6c0 0-.7.1-1 .3v3.5l-2.7 4.4v9.8z"/></symbol>
+    
+    <symbol id="googlePlus" viewBox="0 1 24 24"><path d="M7.8 13.5h4.6c-.6 2-2.5 3.4-4.6 3.4-2.7 0-4.9-2.2-4.9-4.9s2.2-4.9 4.9-4.9c1.1 0 2.1.3 3 1l1.8-2.4c-1.4-1.1-3-1.6-4.8-1.6-4.3 0-7.9 3.5-7.9 7.9s3.5 7.9 7.9 7.9 7.9-3.5 7.9-7.9v-1.5h-7.9v3zM21.7 11v-2.2h-2v2.2h-2.2v2h2.2v2.2h2v-2.2h2.2v-2z"/></symbol>
+    
+    <symbol id="instagram" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.3"/><path d="M13,0H7C2.2,0,0,2.2,0,7v6c0,4.8,2.1,7,7,7h6c4.8,0,7-2.2,7-7V7C20,2.2,17.9,0,13,0z M10,15.1c-2.8,0-5.1-2.3-5.1-5.1 S7.2,4.9,10,4.9s5.1,2.3,5.1,5.1S12.8,15.1,10,15.1z M15.3,5.9c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2 C16.5,5.3,16,5.9,15.3,5.9z"/></symbol>
+
+    <symbol id="behance" viewBox="0 0 511.958 511.958"><path d="M210.624 240.619c10.624-5.344 18.656-11.296 24.16-17.728 9.792-11.584 14.624-26.944 14.624-45.984 0-18.528-4.832-34.368-14.496-47.648-16.128-21.632-43.424-32.704-82.016-33.28h-152.896v312.096h142.56c16.064 0 30.944-1.376 44.704-4.192 13.76-2.848 25.664-8.064 35.744-15.68 8.96-6.624 16.448-14.848 22.4-24.544 9.408-14.656 14.112-31.264 14.112-49.76 0-17.92-4.128-33.184-12.32-45.728-8.288-12.544-20.448-21.728-36.576-27.552zm-147.552-90.432h68.864c15.136 0 27.616 1.632 37.408 4.864 11.328 4.704 16.992 14.272 16.992 28.864 0 13.088-4.32 22.24-12.864 27.392-8.608 5.152-19.776 7.744-33.472 7.744h-76.928v-68.864zm108.896 198.24c-7.616 3.68-18.336 5.504-32.064 5.504h-76.832v-83.232h77.888c13.568.096 24.128 1.888 31.68 5.248 13.44 6.08 20.128 17.216 20.128 33.504 0 19.2-6.912 32.128-20.8 38.976zM327.168 110.539h135.584v38.848h-135.584zM509.856 263.851c-2.816-18.08-9.024-33.984-18.688-47.712-10.592-15.552-24.032-26.944-40.384-34.144-16.288-7.232-34.624-10.848-55.04-10.816-34.272 0-62.112 10.72-83.648 32-21.472 21.344-32.224 52.032-32.224 92.032 0 42.656 11.872 73.472 35.744 92.384 23.776 18.944 51.232 28.384 82.4 28.384 37.728 0 67.072-11.232 88.032-33.632 13.408-14.144 20.992-28.064 22.656-41.728h-62.464c-3.616 6.752-7.808 12.032-12.608 15.872-8.704 7.04-20.032 10.56-33.92 10.56-13.216 0-24.416-2.912-33.76-8.704-15.424-9.28-23.488-25.536-24.512-48.672h170.464c.256-19.936-.384-35.264-2.048-45.824zm-166.88 5.984c2.24-15.008 7.68-26.912 16.32-35.712 8.64-8.768 20.864-13.184 36.512-13.216 14.432 0 26.496 4.128 36.32 12.416 9.696 8.352 15.168 20.48 16.288 36.512h-105.44z"/></symbol>
+    
+    <symbol id="linkedin" viewBox="0 0 24 24"><path d="M5.9 21.9h-4.7v-14.2h4.7v14.2zm-2.3-16.1c-1.6 0-2.6-1.1-2.6-2.5s1-2.5 2.7-2.5c1.6 0 2.6 1 2.6 2.5-.1 1.4-1.2 2.5-2.7 2.5zm19.2 16.1h-4.7v-7.6c0-2-.7-3.3-2.3-3.3-1.3 0-2.1.9-2.5 1.7-.1.3-.1.8-.1 1.2v7.9h-4.7v-14.1h4.7v2c.7-.9 1.7-2.3 4.3-2.3 3.1 0 5.5 2.1 5.5 6.4v8.2h-.2z"/></symbol>
+
+    <symbol id="medium" viewBox="0 0 130.8 104"><path d="M15.5 21.2c.2-1.6-.5-3.2-1.7-4.3l-12.1-14.7v-2.2h38l29.3 64.4 25.8-64.4h36.2v2.2l-10.5 10c-.9.7-1.3 1.8-1.2 2.9v73.7c0 1.1.3 2.2 1.2 2.9l10.2 10v2.2h-51.3v-2.2l10.6-10.2c1-1 1-1.3 1-2.9v-59.6l-29.4 74.7h-4l-34.2-74.7v50.3c0 2.2.4 4.2 1.9 5.7l13.7 16.8v2.2h-39v-2.2l13.8-16.7c1.5-1.5 1.8-3.3 1.8-5.7l-.1-58.2z"/></symbol>
+    
+    <symbol id="pinterest" viewBox="0 0 24 24"><path d="M5.9 13.9c1.2-2-.4-2.5-.6-4-1-6.1 7.1-10.2 11.4-6 2.9 2.9 1 12-3.7 11-4.6-.9 2.2-8.1-1.4-9.5-3-1.1-4.6 3.6-3.2 5.9-.8 4-2.5 7.7-1.8 12.7 2.3-1.7 3.1-4.8 3.7-8.1 1.2.7 1.8 1.4 3.3 1.5 5.5.4 8.6-5.4 7.8-10.7-.7-4.7-5.5-7.1-10.6-6.6-4.1.4-8.1 3.7-8.3 8.3-.1 2.8.7 4.9 3.4 5.5z"/></symbol>
+    
+    <symbol id="stumbleupon" viewBox="0 0 24 24"><path d="M13.3 9.6l1.6.8 2.5-.8v-1.4c0-3-2.4-5.4-5.4-5.4s-5.4 2.4-5.4 5.4v7.5c0 .7-.6 1.3-1.3 1.3s-1.3-.6-1.3-1.3v-3.2h-4v3.2c0 3 2.4 5.4 5.4 5.4s5.4-2.4 5.4-5.4v-7.5c0-.7.6-1.3 1.3-1.3s1.3.6 1.3 1.3l-.1 1.4zm6.6 2.9v3.2c0 .7-.6 1.3-1.3 1.3s-1.3-.6-1.3-1.3v-3.2l-2.5.8-1.6-.8v3.2c0 3 2.4 5.4 5.4 5.4s5.4-2.4 5.4-5.4v-3.2h-4.1z"/></symbol>
+    
+    <symbol id="twitter" viewBox="0 1 24 23"><path d="M21.5 7.6v.6c0 6.6-5 14.1-14 14.1-2.8 0-5.4-.8-7.6-2.2l1.2.1c2.3 0 4.4-.8 6.1-2.1-2.2 0-4-1.5-4.6-3.4.3.1.6.1.9.1.5 0 .9-.1 1.3-.2-2.1-.6-3.8-2.6-3.8-5 .7.4 1.4.6 2.2.6-1.3-.9-2.2-2.4-2.2-4.1 0-.9.2-1.8.7-2.5 2.4 3 6.1 5 10.2 5.2-.1-.4-.1-.7-.1-1.1 0-2.7 2.2-5 4.9-5 1.4 0 2.7.6 3.6 1.6 1-.3 2.1-.7 3-1.3-.4 1.2-1.1 2.1-2.2 2.7 1-.1 1.9-.4 2.8-.8-.6 1.1-1.4 2-2.4 2.7z"/></symbol>
+    
+    <symbol id="tumblr" viewBox="0 0 23 23"><path d="M12.573 4.94v-4.94h-3.188c-.072.183-.11.4-.11.622-.034.107-.072.184-.072.293-.328 1.829-1.28 3.11-2.892 3.807-.476.218-.914.253-1.39.218v3.987h2.342c.039 5.603.039 8.493.039 8.64v.332c.294 2.449 1.573 3.914 3.843 4.463.914.257 1.901.366 2.892.366 1.279-.036 2.525-.256 3.771-.659v-4.685c-.731.22-1.395.402-1.977.583-1.135.333-2.087.113-2.857-.619-.073-.11-.183-.257-.221-.403-.106-.586-.178-1.206-.178-1.795v-6.222h5.083v-3.988h-5.085z"/></symbol>
+
+    <symbol id="xing" viewBox="0 0 24 24"><path d="M3.647 4.74c-.208 0-.384.073-.472.216-.091.148-.077.338.02.531l2.34 4.051v.02l-3.678 6.49c-.096.191-.091.383 0 .531.088.142.244.236.452.236h3.461c.518 0 .767-.349.944-.669l3.737-6.608-2.38-4.15c-.172-.307-.433-.649-.964-.649h-3.46zm14.542-4.74c-.517 0-.741.326-.927.659l-7.702 13.658 4.918 9.023c.172.307.437.659.967.659h3.457c.208 0 .371-.079.459-.221.092-.148.09-.343-.007-.535l-4.88-8.915v-.023l7.664-13.551c.096-.191.098-.386.007-.534-.088-.142-.252-.221-.46-.221h-3.496z"/></symbol>
+
+    <symbol id="whatsapp" viewBox="0 0 512 512"><path d="M256.064 0h-.128c-141.152 0-255.936 114.816-255.936 256 0 56 18.048 107.904 48.736 150.048l-31.904 95.104 98.4-31.456c40.48 26.816 88.768 42.304 140.832 42.304 141.152 0 255.936-114.848 255.936-256s-114.784-256-255.936-256zm148.96 361.504c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.616-127.456-112.576-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016.16 8.576.288 7.52.32 11.296.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744-3.776 4.352-7.36 7.68-11.136 12.352-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z"/></symbol>
+    
+    <symbol id="youtube" viewBox="0 0 24 24"><path d="M23.6 6.3c-.3-1.2-1.4-2.2-2.6-2.3-3-.3-6-.3-9-.3s-6 0-9 .3c-1.2.1-2.3 1.1-2.6 2.3-.4 1.8-.4 3.8-.4 5.7 0 1.9 0 3.9.4 5.7.3 1.2 1.4 2.2 2.6 2.3 3 .3 6 .3 9 .3s6 0 9-.3c1.3-.1 2.3-1.1 2.6-2.4.4-1.7.4-3.7.4-5.6 0-1.9 0-3.9-.4-5.7zm-14.1 9v-6.6l6.5 3.3-6.5 3.3z"/></symbol>
+
+  </svg>
+
+  <!-- Navigation -->
+  <nav class="side pole">
+      <div class="navigation">
+          <ul></ul>
+      </div>
+  </nav>
+
+  <!-- <nav class="panel top">
+    <div class="sections desktop">
+      <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+      <div class="right">
+        <ul class="menu">
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">Upgrade</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Explore</a></li>
+        </ul>
+        <a class="button blue rounded small" href="#">Profile</a> 
+      </div>
+    </div>
+    <div class="sections compact hidden">
+      <div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+      <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+    </div>
+  </nav> -->
+
+  <nav class="panel top hideOnScroll">
+    <div class="sections">
+      <div class="center"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    </div>
+  </nav>
+  <nav class="panel top">
+    <div class="sections">
+      <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <nav class="sidebar" data-sidebar-id="1">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <a href="#" class="logo"><svg width="100" height="30"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+      <ul class="mainMenu margin-top-3">
+        <li><a href="inspiration.html">靈感日誌</a></li>
+        <li><a href="product.html">作品</a></li>
+        <li><a href="#">事務所簡介</a></li>
+        <li><a href="patent.html">專利</a></li>
+      </ul>
+      <ul class="social opacity-8">
+        <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 51 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-6-12">
+            <h1 class="smaller margin-bottom-2 ae-1">Ready to Purchase?</h1>
+            <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Without deviation from the norm, progress is not&nbsp;possible.</span></p>
+            <ul class="flex later equal">
+              <li class="col-6-12">
+                <div class="pad shadow fix-5-12 margin-bottom-tablet-3 ae-3">
+                  <img src="assets/img/image-51-1.jpg" width="128" class="round margin-bottom-2 ae-4" alt="App 1"/>
+                  <h4 class="small margin-bottom-1 ae-5">Creativity</h4>
+                  <div class="ae-6"><p class="small opacity-8 margin-bottom-3 equalElement">Space and light and order. Those are the things that men.</p></div>
+                  <div class="button green rounded wide crop ae-7">Purchase</div>
+                </div>
+              </li>
+              <li class="col-6-12">
+                <div class="pad shadow fix-5-12 ae-4">
+                  <img src="assets/img/image-51-2.jpg" width="128" class="round margin-bottom-2 ae-5" alt="App 2"/>
+                  <h4 class="small margin-bottom-1 ae-6">Layers</h4>
+                  <div class="ae-7"><p class="small opacity-8 margin-bottom-3 equalElement">Design is not making beauty, beauty emerges from selection.</p></div>
+                  <div class="button green rounded wide crop ae-8">Purchase</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-51.jpg)"></div>
+  </section>
+
+  <!-- 52 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-6-12">
+            <h1 class="smaller margin-bottom-2 ae-1">Ready to Purchase?</h1>
+            <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Without deviation from the norm, progress is not&nbsp;possible.</span></p>
+          </div>
+          <div class="fix-3-12">
+            <div class="pad shadow ae-3">
+              <img src="assets/img/image-52.jpg" width="128" class="round margin-bottom-2 ae-5" alt="Avatar"/>
+              <h4 class="small margin-bottom-1 ae-6">Layers</h4>
+              <div class="ae-6"><p class="small opacity-8 margin-bottom-3 equalElement">Design is not making beauty, beauty emerges from selection.</p></div>
+              <div class="button green rounded wide crop ae-7">Purchase</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-52.jpg)"></div>
+  </section>
+
+  <!-- 53 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <h1 class="smaller margin-bottom-2 ae-1">Ready to Purchase?</h1>
+          <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Design is thinking made visual.</span></p>
+          <div class="fix-6-12">
+            <ul class="flex later equal">
+              <li class="col-6-12">
+                <div class="fix-3-12 margin-bottom-3">
+                  <div class="pad shadow ae-3">
+                    <div class="price ae-4"><span class="currency">$</span>69</div>
+                    <h4 class="small margin-bottom-1 ae-5">Creativity</h4>
+                    <div class="ae-6"><p class="small opacity-8 margin-bottom-3 equalElement">Space and light and order. Those are the things that&nbsp;men.</p></div>
+                    <div class="button green rounded wide crop ae-7">Purchase</div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-6-12">
+                <div class="fix-3-12">
+                  <div class="pad shadow ae-4">
+                    <div class="price ae-5"><span class="currency">$</span>89</div>
+                    <h4 class="small margin-bottom-1 ae-6">Layers</h4>
+                    <div class="ae-7"><p class="small opacity-8 margin-bottom-3 equalElement">Design is not making beauty, beauty emerges from&nbsp;selection.</p></div>
+                    <div class="button green rounded wide crop ae-8">Purchase</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-53.jpg)"></div>
+  </section>
+
+  <!-- 54 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <h1 class="smaller margin-bottom-2 ae-1">Ready to Purchase?</h1>
+          <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Design is thinking made visual.</span></p>
+          <div class="fix-3-12">
+            <div class="pad shadow ae-4">
+              <div class="price ae-5"><span class="currency">$</span>89</div>
+              <h4 class="small margin-bottom-1 ae-6">Layers</h4>
+              <div class="ae-7"><p class="small opacity-8 margin-bottom-3 equalElement">Design is not making beauty, beauty emerges from selection.</p></div>
+              <div class="button green rounded wide crop ae-8">Purchase</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-54.jpg)"></div>
+  </section>
+
+  <!-- 55 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <h1 class="smaller margin-bottom-2 ae-1">Say Hello</h1>
+          <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Feel free to ask anything about our products.</span></p>
+          <div class="form-55 fix-5-12">
+            <div class="pad padding-top-2 shadow left selected ae-3">
+              <form action="ajax-email.php" id="contact-form" method="post" class="slides-form wide" data-ajax-form="true">
+                <ul class="flex noSpaces">
+                  <li class="col-6-12 form-55-input-1">
+                    <div class="label ae-5"><label class="left opacity-5" for="name55">Your name</label></div>
+                    <input class="rounded wide ae-6" id="name55" type="name" name="name" placeholder="Name" required/>
+                  </li>
+                  <li class="col-6-12 form-55-input-2">
+                    <div class="label ae-5"><label class="left opacity-5" for="email55">Email address</label></div>
+                    <input class="rounded wide ae-6" id="email55" type="email" name="email" placeholder="Email" required/>
+                  </li>
+                </ul>
+                <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
+                <textarea class="rounded left wide ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="button wide blue rounded ae-10 cropBottom margin-top-2" data-success-text="Done!" data-success-class="message-sent" name="button">Send message</button>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>  
+    <div class="background" style="background-image:url(assets/img/background/img-55.jpg)"></div>
+  </section>
+
+  <!-- 56 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-9-12">
+            <h1 class="small margin-bottom-2 ae-1">Most of what we see that we call information doesn&rsquo;t inform, and most questions do not have a&nbsp;quest.</h1>
+            <p class="larger light margin-bottom-4 ae-2"><span class="opacity-8">To create anything–whether a short story or a magazine profile or a film or a sitcom–is to believe, if only momentarily, you are capable of&nbsp;magic.</span></p>
+            <ul class="flex equal fixedSpaces margin-top-3">
+              <li class="col-4-12 ae-3">
+                <div class="fix-3-12 equalElement">
+                  <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">HQ Studio</p>
+                  <p><a class="opacity-8" href="#">72 Allen Street, New York, ste. 706, 11249</a></p>
+                </div>
+                <div class="fix-3-12 equalElement">
+                  <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">California Studio</p>
+                  <p><a class="opacity-8" href="#">312 Richhy Street, Los Angeles, 90026</a></p>
+                </div>
+              </li>
+              <li class="col-4-12 ae-4">
+                <div class="fix-3-12 equalElement">
+                  <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Generatal Engquires</p>
+                  <p><a class="opacity-8" href="mailto:#">general@gmail.com</a></p>
+                </div>
+                <div class="fix-3-12 equalElement">
+                  <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Questions</p>
+                  <p><a class="opacity-8" href="mailto:#">questions@gmail.com</a></p>
+                </div>
+              </li>
+              <li class="col-4-12 ae-5">
+                <div class="fix-3-12 equalElement">
+                  <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Our blog</p>
+                  <p><a class="opacity-8" href="#">Trend Breakdown: New Ways to Use the Hamburger Icon</a></p>
+                </div>
+                <div class="fix-3-12 equalElement">
+                  <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Stay in touch</p>
+                  <ul class="social-circles">
+                    <li><a class="social-facebook" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                    <li><a class="social-whatsapp" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#whatsapp"></use></svg></a></li>
+                    <li><a class="social-youtube" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg></a></li>
+                    <li><a class="social-linkedin" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></a></li>
+                    <li><a class="social-twitter" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-56.jpg)"></div>
+  </section>
+
+  <!-- 57 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-10-12">
+            <h1 class="larger margin-bottom-6 ae-1">The details are not the details. They can make the design.</h1>
+  
+            <div class="fix-9-12">
+              <ul class="flex equal fixedSpaces margin-top-3">
+                <li class="col-4-12 ae-3">
+                  <div class="fix-3-12 equalElement">
+                    <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">HQ Studio</p>
+                    <a class="p opacity-8" href="#">72 Allen Street, New York, ste. 706, 11249</a>
+                  </div>
+                  <div class="fix-3-12 equalElement">
+                    <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">California Studio</p>
+                    <a class="p opacity-8" href="#">312 Richhy Street, Los Angeles, 90026</a>
+                  </div>
+                </li>
+                <li class="col-4-12 ae-4">
+                  <div class="fix-3-12 equalElement">
+                    <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Generatal Engquires</p>
+                    <a class="p opacity-8" href="mailto:#">general@gmail.com</a>
+                  </div>
+                  <div class="fix-3-12 equalElement">
+                    <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Questions</p>
+                    <a class="p opacity-8" href="mailto:#">questions@gmail.com</a>
+                  </div>
+                </li>
+                <li class="col-4-12 ae-5">
+                  <div class="fix-3-12 equalElement">
+                    <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Our blog</p>
+                    <a class="p opacity-8" href="#">Trend Breakdown: New Ways to Use the Hamburger Icon</a>
+                  </div>
+                  <div class="fix-3-12 equalElement">
+                    <p class="smallest bold uppercase opacity-4 margin-top-3 margin-bottom-2">Stay in touch</p>
+                    <ul class="social-circles">
+                      <li><a class="social-facebook" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook2"></use></svg></a></li>
+                      <li><a class="social-behance" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#behance"></use></svg></a></li>
+                      <li><a class="social-dribbble" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dribbble"></use></svg></a></li>
+                      <li><a class="social-instagram" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+                      <li><a class="social-medium" href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#medium"></use></svg></a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-57.jpg)"></div>
+  </section>
+
+  <!-- 58 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12 left">
+            <h1 class="margin-bottom-2 ae-1">Terms &amp; Conditions</h1>
+            <p class="larger light ae-2"><span class="opacity-8">Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the http://designmodo.com website (the “Service”) operated by Designmodo Inc. (“us”, “we”, or “our”). Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.</span></p>
+  
+            <h2 class="smallest margin-top-4 margin-bottom-2 ae-3">Communications</h2>
+            <p class="ae-4"><span class="opacity-8">By creating an Account on our service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send.</span></p>
+  
+            <h2 class="smallest margin-top-4 margin-bottom-2 ae-5">Purchases</h2>
+            <p class="ae-6"><span class="opacity-8">If you wish to purchase any product or service made available through the Service (“Purchase”), you may be asked to supply certain information relevant to your Purchase including, without limitation, your credit card number, the expiration date of your credit card, your billing address, and your shipping information.</span></p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-58.jpg)"></div>
+  </section>
+
+  <!-- 59 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12">
+            <h1 class="margin-bottom-2 ae-1">Terms &amp; Conditions</h1>
+            <p class="larger light ae-2"><span class="opacity-8">One of the best ways to make a great vacation quickly horrible is to choose the wrong accommodations for your&nbsp;trip.</span></p>
+            <div class="pad padding-4 padding-phablet-3 padding-phone-2 shadow left ae-3 pad-59 margin-top-4">
+              <h3 class="smallest margin-bottom-2 ae-3">Purchases</h3>
+              <p class="ae-2"><span class="opacity-8">Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the http://designmodo.com website (the “Service”) operated by Designmodo Inc. (“us”, “we”, or “our”). Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the&nbsp;Service.</span></p>
+              <h3 class="smallest margin-top-3 margin-bottom-2 ae-3">Communications</h3>
+              <p class="ae-4 cropBottom"><span class="opacity-8">By creating an Account on our service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we&nbsp;send.</span></p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-59.jpg)"></div>
+  </section>
+
+  <!-- 60 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12">
+            <ul class="flex">
+              <li class="col-6-12 left">
+                <h1 class="margin-bottom-2 ae-2 fromLeft">Krabi Island</h1>
+                <p class="large margin-bottom-3 ae-3 fromLeft"><span class="opacity-8">An electrician isn’t an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in society.</span></p>
+                <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60">
+                  <li class="selected">Krabi Island</li>
+                  <li>Community</li>
+                  <li>Surfing</li>
+                </ul>
+              </li>
+              <li class="col-6-12 left ae-5 fromCenter">
+                <ul class="slider animated margin-top-tablet-4" data-slider-id="60">
+                  <li class="selected fromCenter">
+                    <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
+                      <img class="wide" src="assets/img/gallery-60-1.jpg" alt="Video Thumbnail"/>
+                    </div>
+                  </li>
+                  <li class="fromCenter">
+                    <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-2">
+                      <img class="wide" src="assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
+                    </div>
+                  </li>
+                  <li class="fromCenter">
+                    <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
+                      <img class="wide" src="assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-60.jpg)"></div>
+  </section>
+  
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="60-1">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="60-2">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="60-3">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 61 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            
+          <div class="fix-12-12">
+            <ul class="flex fixedSpaces verticalCenter">
+              <li class="col-6-12 left ae-1">
+                <img class="macbook-61 margin-bottom-tablet-3" src="assets/img/macbook-61.png" data-action="zoom" width="1005" alt="Macbook Image"/>
+              </li>
+              <li class="col-6-12 left">
+                <h1 class="smaller margin-bottom-2 ae-2">I am Creator</h1>
+                <p class="large margin-bottom-3 ae-3"><span class="opacity-8">Scene Generator allows you to create your own unique scenes just by dragging and dropping items into a special&nbsp;scene.</span></p>
+                <ul class="flex flex-61 later">
+                  <li class="col-6-12 ae-4">
+                    <i class="material-icons">panorama</i>
+                    <h4 class="small margin-bottom-1">HQ Photos</h4>
+                    <p class="small opacity-8">Design is the conscious effort to impose a meaningful order.</p>
+                  </li>
+                  <li class="col-6-12 ae-5">
+                    <i class="material-icons">settings_applications</i>
+                    <h4 class="small margin-bottom-1">Useful Components</h4>
+                    <p class="small opacity-8">Design is as much a matter of finding problems as it is solving them..</p>
+                  </li>
+                  <li class="col-6-12 ae-6">
+                    <i class="material-icons">videocam</i>
+                    <h4 class="small margin-bottom-1">Video Calls</h4>
+                    <p class="small opacity-8">It’s all fun and games until someone breaks a link.</p>
+                  </li>
+                  <li class="col-6-12 ae-7">
+                    <i class="material-icons">face</i>
+                    <h4 class="small margin-bottom-1">Photo Profile</h4>
+                    <p class="small opacity-8">The definition of an expert is someone who knows what not to do.</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-61.jpg)"></div>
+  </section>
+
+  <!-- 62 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            
+          <div class="fix-12-12">
+            <ul class="flex reverse noSpaces verticalCenter">
+              <li class="col-6-12 left">
+                <h1 class="smaller margin-bottom-2 ae-2">Magical Balance</h1>
+                <p class="large margin-bottom-4 ae-3"><span class="opacity-8">Design solves problems. It is the answer to question; you need to understand that first in order to answer the riddle.</span></p>
+                <ul class="flex fixedSpaces flex-62 later">
+                  <li class="col-6-12 ae-4">
+                    <i class="material-icons">panorama</i>
+                    <h4 class="smaller margin-bottom-1">HQ Photos</h4>
+                    <p class="small opacity-8">Design is the conscious effort to impose a meaningful order.</p>
+                  </li>
+                  <li class="col-6-12 ae-5">
+                    <i class="material-icons">settings_applications</i>
+                    <h4 class="smaller margin-bottom-1">Useful Components</h4>
+                    <p class="small opacity-8">Design is as much a matter of finding problems as it is solving them..</p>
+                  </li>
+                  <li class="col-6-12 ae-6">
+                    <i class="material-icons">videocam</i>
+                    <h4 class="smaller margin-bottom-1">Video Calls</h4>
+                    <p class="small opacity-8">It’s all fun and games until someone breaks a link.</p>
+                  </li>
+                  <li class="col-6-12 ae-7">
+                    <i class="material-icons">face</i>
+                    <h4 class="smaller margin-bottom-1">Photo Profile</h4>
+                    <p class="small opacity-8">The definition of an expert is someone who knows what not to do.</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-6-12 left ae-1">
+                <img class="macbook-62 margin-bottom-tablet-3" src="assets/img/macbook-62.png" data-action="zoom" width="1005" alt="Macbook Image"/>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-62.jpg)"></div>
+  </section>
+
+  <!-- 63 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-10-12">
+            <h1 class="margin-bottom-2 ae-1">Frequently Asked Questions</h1>
+            <p class="larger light ae-2"><span class="opacity-8">If you have other questions or issues, please contact us.</span></p>
+            <ul class="flex left margin-top-4">
+              <li class="col-6-12 margin-bottom-1 ae-3">
+                <h4 class="smaller margin-top-1 margin-bottom-1">Do I need programming skills to use Slides Framework?</h4>
+                <p class="opacity-8">Yes, you need some basic HTML and CSS knowledge to use Slides Framework.</p>
+              </li>
+              <li class="col-6-12 margin-bottom-1 ae-4">
+                <h4 class="smaller margin-top-1 margin-bottom-1">How many projects I can do with Slides Framework?</h4>
+                <p class="opacity-8">As many as you need. Great, right?</p>
+              </li>
+              <li class="col-6-12 margin-bottom-1 ae-5">
+                <h4 class="smaller margin-top-1 margin-bottom-1">Why don&rsquo;t you have a demo of Slides?</h4>
+                <p class="opacity-8">Our presentation was created with Slides. Everything in this presentation from the navigation, share and the layouts of every slide is based on Slides Framework.</p>
+              </li>
+              <li class="col-6-12 margin-bottom-1 ae-6">
+                <h4 class="smaller margin-top-1 margin-bottom-1">What am I buying and what do I get for $249?</h4>
+                <p class="opacity-8">Each Slides customer will download PSD, Sketch, HTML and CSS files (approx. 800mb) to build their website. All clients have unlimited access to Slides Generator.</p>
+              </li>
+            </ul>
+            <div class="button blue rounded cropBottom popupTrigger ae-7 fromCenter margin-top-1" data-popup-id="63"><i class="material-icons text-white">play_circle_filled</i>Watch the Video</div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-63.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="63">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 64 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            
+          <div class="fix-10-12">
+            <div class="fix-8-12 toCenter header-64">
+              <h1 class="smaller margin-bottom-2 ae-1">Simplicity, wit, and good typography.</h1>
+              <p class="larger light margin-bottom-4 ae-2"><span class="opacity-8">I shall sing that first line twice, and perhaps if I sing it very quickly, I shall find myself singing the third and fourth lines before I have time to think of them, and that will be a Good Song. You cannot not&nbsp;communicate.</span></p>
+            </div>
+            <ul class="flex fixedSpaces later equal left flex-64">
+              <li class="col-4-12 ae-3">
+                <a href="#" class="cell-64 rounded equalElement">
+                  <i class="material-icons">panorama</i>
+                  <h4 class="smaller margin-bottom-1">HQ Photos</h4>
+                  <p class="opacity-8">Quickly swipe messages to your archive or trash.</p>
+                </a>
+              </li>
+              <li class="col-4-12 ae-4">
+                <a href="#" class="cell-64 rounded equalElement">
+                  <i class="material-icons">settings_applications</i>
+                  <h4 class="smaller margin-bottom-1">Components</h4>
+                  <p class="opacity-8">Scan entire conversations in a chat-like view.</p>
+                </a>
+              </li>
+              <li class="col-4-12 ae-6">
+                <a href="#" class="cell-64 rounded equalElement last">
+                  <i class="material-icons">queue_music</i>
+                  <h4 class="smaller margin-bottom-1">Best Music</h4>
+                  <p class="opacity-8">Unforgettable feelings through a quality music.</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-64.jpg)"></div>
+  </section>
+
+  <!-- 65 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            
+          <div class="fix-10-12">
+            <h1 class="smaller margin-bottom-2 ae-1">How Things Really Work</h1>
+            <p class="larger light ae-2"><span class="opacity-8">The last time somebody pointed out that cowboys ride horses, not tricycles, I shot him. Of course, I waited until another gunslinger gunned him&nbsp;down.</span></p>
+            
+            <ul class="flex later equal left flex-65 margin-top-4">
+              <li class="col-6-12 ae-3 equalElement">
+                <i class="material-icons">near_me</i>
+                <h4 class="small margin-bottom-1">Location</h4>
+                <p class="opacity-8 fix-4-12 toLeft">The best stories of the week, delivered right to your inbox. No spam, we promise.</p>
+              </li>
+              <li class="col-6-12 ae-4 equalElement">
+                <i class="material-icons">layers</i>
+                <h4 class="small margin-bottom-1">Layers</h4>
+                <p class="opacity-8 fix-4-12 toLeft">Less time shopping means more time Doing Things, so we created Slides Framework. It&rsquo;s built to impress!</p>
+              </li>
+              <li class="col-6-12 ae-5 equalElement">
+                <i class="material-icons">videocam</i>
+                <h4 class="small margin-bottom-1">Video Calls</h4>
+                <p class="opacity-8 fix-4-12 toLeft">Many months of experimentation and trial and error in order to bring out the best visual metaphors.</p>
+              </li>
+              <li class="col-6-12 ae-6">
+                <i class="material-icons">local_florist</i>
+                <h4 class="small margin-bottom-1">Grow</h4>
+                <p class="opacity-8 fix-4-12 toLeft">Ideally, the icons should blend so well into your next project, as if they&rsquo;re custom-designed for you.</p>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-65.jpg)"></div>
+  </section>
+
+  <!-- 66 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-10-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">Going Wireless With Your Headphones.</h1>
+            <p class="cropBottom large ae-2"><span class="opacity-8">An electrician isn’t an opinion former, but a graphic designer is. My argument is that all graphic designers hold high levels of responsibility in society.</span></p>
+          </div>
+          <div class="fix-10-12">
+            <ul class="flex later equal left">
+              <li class="col-4-12 margin-top-5">
+                <a href="#" class="button empty rounded shadow margin-bottom-1 ae-3">
+                  <img class="wide" src="assets/img/gallery-66-1.jpg" alt="Image Thumbnail"/>
+                </a>
+                <h4 class="smallest margin-top-1 ae-4">The Skinny on LCD Monitors</h4>
+                <div class="margin-top-1 ae-5"><p class="small opacity-8">The monkey-rope is found in all whalers; but it was on.</p></div>
+              </li>
+              <li class="col-4-12 margin-top-5">
+                <div class="rounded videoThumbnail shadow video-66 popupTrigger margin-bottom-2 ae-4" data-popup-id="66">
+                  <img class="wide" src="assets/img/gallery-66-2.jpg" alt="Video Thumbnail"/>
+                </div>
+                <h4 class="smallest margin-top-1 ae-5">What is HDMI</h4>
+                <div class="margin-top-1 ae-6"><p class="small opacity-8">In the tumultuous business of cutting-in and attending.</p></div>
+              </li>
+              <li class="col-4-12 margin-top-5">
+                <a href="#" class="button empty rounded shadow margin-bottom-1 ae-5">
+                  <img class="wide" src="assets/img/gallery-66-3.jpg" alt="Image Thumbnail"/>
+                </a>
+                <h4 class="smallest margin-top-1 ae-6">Download Free Song for iPod</h4>
+                <div class="margin-top-1 ae-7"><p class="small opacity-8">So strongly and metaphysically did I conceive of my situation.</p></div>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-66.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="66">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 67 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-8-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">Request early access</h1>
+            <p class="large ae-2"><span class="opacity-8">Share our great design quotes collection with funny, inspirational and motivational quotations by famous authors, designers on design and designing.</span></p>
+          </div>
+          <div class="fix-12-12 margin-top-4">  
+            <ul class="flex later fixedSpaces equal left">
+              <li class="col-4-12 ae-3 fromCenter">
+                <a href="#" class="box-67">
+                  <div class="thumbnail-67 rounded">
+                    <img src="assets/img/gallery-67-1.jpg" class="wide"/>
+                  </div>
+                  <div class="name-67 equalElement table wide">
+                    <div class="cell">
+                      <p class="smallest bold uppercase margin-bottom-1 opacity-4">3 minutes • LEARN MORE</p>
+                      <h4 class="small cropBottom">Artisan Rye Bread</h4>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-4-12 ae-4 fromCenter">
+                <a href="#" class="box-67">
+                  <div class="thumbnail-67 rounded">
+                    <img src="assets/img/gallery-67-2.jpg" class="wide"/>
+                  </div>
+                  <div class="name-67 equalElement table wide">
+                    <div class="cell">
+                      <p class="smallest bold uppercase margin-bottom-1 opacity-4">14 minutes • LEARN MORE</p>
+                      <h4 class="small cropBottom">Blueberry Muffin</h4>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-4-12 ae-5 fromCenter">
+                <a href="#" class="box-67">
+                  <div class="thumbnail-67 rounded">
+                    <img src="assets/img/gallery-67-3.jpg" class="wide"/>
+                  </div>
+                  <div class="name-67 equalElement table wide">
+                    <div class="cell">
+                      <p class="smallest bold uppercase margin-bottom-1 opacity-4">12 minutes • LEARN MORE</p>
+                      <h4 class="small cropBottom">Chopped Parsley</h4>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-67.jpg)"></div>
+  </section>
+
+  <!-- 68 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-10-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">Our clients</h1>
+            <p class="larger light ae-2 fix-8-12"><span class="opacity-8">Design is all around us, in our homes, in buildings, architecture, landscaping, products, movies, television, and much more.</span></p>
+  
+            <!-- remove class tintLogos class to disable color change of the logo images -->
+            <ul class="flex flex-68 tintLogos equal equalMobile">
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-3">
+                  <div class="cell"><a href="#"><img width="67" src="assets/img/brand-68-bbc.png" alt="BBC"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-4">
+                  <div class="cell"><a href="#"><img width="86" src="assets/img/brand-68-google.png" alt="Google"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-5">
+                  <div class="cell"><a href="#"><img width="32" src="assets/img/brand-68-apple.png" alt="Apple"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-6">
+                  <div class="cell"><a href="#"><img width="93" src="assets/img/brand-68-canon.png" alt="Canon"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-7">
+                  <div class="cell"><a href="#"><img width="62" src="assets/img/brand-68-nike.png" alt="Nike"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-8">
+                  <div class="cell"><a href="#"><img width="115" src="assets/img/brand-68-greenpeace.png" alt="Green Peace"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-3">
+                  <div class="cell"><a href="#"><img width="94" src="assets/img/brand-68-facebook.png" alt="Facebook"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-4">
+                  <div class="cell"><a href="#"><img width="64" src="assets/img/brand-68-audi.png" alt="Audi"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-5">
+                  <div class="cell"><a href="#"><img width="39" src="assets/img/brand-68-warner-bros.png" alt="Warner Bros"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-6">
+                  <div class="cell"><a href="#"><img width="116" src="assets/img/brand-68-microsoft.png" alt="Microsoft"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-7">
+                  <div class="cell"><a href="#"><img width="87" src="assets/img/brand-68-coca-cola.png" alt="Coca Cola"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-8">
+                  <div class="cell"><a href="#"><img width="100" src="assets/img/brand-68-reebok.png" alt="Reebok"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-3">
+                  <div class="cell"><a href="#"><img width="50" src="assets/img/brand-68-adidas.png" alt="Adidas"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-4">
+                  <div class="cell"><a href="#"><img width="87" src="assets/img/brand-68-vimeo.png" alt="Vimeo"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-5">
+                  <div class="cell"><a href="#"><img width="56" src="assets/img/brand-68-nbc.png" alt="NBC"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-6">
+                  <div class="cell"><a href="#"><img width="95" src="assets/img/brand-68-sony.png" alt="Sony"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-7">
+                  <div class="cell"><a href="#"><img width="49" src="assets/img/brand-68-playstation.png" alt="PlayStation"/></a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
+                <div class="table wide equalElement ae-8">
+                  <div class="cell"><a href="#"><img width="94" src="assets/img/brand-68-national-geographic.png" alt="National Geographic"/></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-68.jpg)"></div>
+  </section>
+
+  <!-- 69 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-9-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">The Biggest Cliche</h1>
+            <p class="larger light margin-bottom-4 ae-2"><span class="opacity-8">There is only you and your camera. The limitations in your photography are in yourself, for what we see is what we are.</span></p>
+          </div>
+          <div class="fix-12-12">  
+            <ul class="flex fixedSpaces later flex-69 equal equalMobile popupTrigger controller" data-popup-id="69" data-slider-id="69" >
+              <li class="col-4-12 margin-bottom-phablet-2">
+                <div class="box-69 cursorZoomIn rounded ae-3 equalElement selected" style="background-image:url(assets/img/gallery-69-1.jpg);">
+                  <div class="table cell-69 equalElement">
+                    <div class="cell">
+                      <h4 class="small margin-bottom-1">Shadow &amp; Color</h4>
+                      <p class="smallest bold uppercase cropBottom opacity-8">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-4-12 margin-bottom-phablet-2">
+                <div class="box-69 cursorZoomIn rounded ae-4 equalElement" style="background-image:url(assets/img/gallery-69-2.jpg);">
+                  <div class="table cell-69 equalElement">
+                    <div class="cell">
+                      <h4 class="small margin-bottom-1">5 Reasons to Purchase Desktop Computers</h4>
+                      <p class="smallest bold uppercase cropBottom opacity-8">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-4-12 margin-bottom-phablet-2">
+                <div class="box-69 cursorZoomIn rounded ae-5 equalElement" style="background-image:url(assets/img/gallery-69-3.jpg);">
+                  <div class="table cell-69 equalElement">
+                    <div class="cell">
+                      <h4 class="small margin-bottom-1">Capri Blue Winter Wonder&nbsp;Candle</h4>
+                      <p class="smallest bold uppercase cropBottom opacity-8">Read More</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-69.jpg)"></div>
+  </section>
+  
+  <!-- Popup Gallery -->
+  <div class="popup animated" data-popup-id="69">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap spaces">
+        
+          <ul class="slider inlineBlock clickable popupContent ae-1 fromCenter disableSelect" data-slider-id="69" style="display: inline-block;">
+            <li class="selected"><img class="rounded" src="assets/img/gallery-69-full-1.jpg" class="selected" alt="Image"/></li>
+            <li><img class="rounded" src="assets/img/gallery-69-full-2.jpg" alt="Image"/></li>
+            <li><img class="rounded" src="assets/img/gallery-69-full-3.jpg" alt="Image"/></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 70 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12">  
+            <ul class="flex equal later fromCenter">
+              <li class="col-4-12 margin-bottom-tablet-2">
+                <div class="pad shadowHover padding-0 ae-1">
+                  <div class="thumbnail-70">
+                    <img class="wide" src="assets/img/gallery-70-1.jpg" alt="Image">
+                  </div>
+                  <div class="info-70">
+                    <p class="smaller bold uppercase opacity-4 margin-bottom-1 margin-top-0">Design</p>
+                    <h4 class="small margin-bottom-1">Envelope</h4>
+                    <p class="small opacity-8 margin-bottom-2 equalElement">Art is making something out of nothing and selling&nbsp;it.</p>
+                    <a class="button blue rounded crop">Learn More</a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-4-12 margin-bottom-tablet-2">
+                <div class="pad shadowHover padding-0 ae-2">
+                  <div class="thumbnail-70">
+                    <img class="wide" src="assets/img/gallery-70-2.jpg" alt="Image">
+                  </div>
+                  <div class="info-70">
+                    <p class="smaller bold uppercase opacity-4 margin-bottom-1 margin-top-0">Technology</p>
+                    <h4 class="small margin-bottom-1">Smart Watch</h4>
+                    <p class="small opacity-8 margin-bottom-2 equalElement">Design is the effort to impose a meaningful&nbsp;order.</p>
+                    <a class="button blue rounded crop">Learn More</a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-4-12">
+                <div class="pad shadowHover padding-0 ae-3">
+                  <div class="thumbnail-70">
+                    <img class="wide" src="assets/img/gallery-70-3.jpg" alt="Image">
+                  </div>
+                  <div class="info-70">
+                    <p class="smaller bold uppercase opacity-4 margin-bottom-1 margin-top-0">Music</p>
+                    <h4 class="small margin-bottom-1">Headphones</h4>
+                    <p class="small opacity-8 margin-bottom-2 equalElement">It&rsquo;s all fun and games until someone breaks a&nbsp;link.</p>
+                    <a class="button blue rounded crop">Learn More</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+        </div> 
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-70.jpg)"></div>
+  </section>
+
+  <!-- 71 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12">
+            <h1 class="margin-bottom-2 ae-1 margin-bottom-2">Design School</h1>
+            <div class="ae-2"><p class="larger light opacity-8 margin-bottom-2">I’m con­vinced that without bad design, the world would be a far less stim­u­lat­ing place; we would have noth­ing to mar­vel over and noth­ing to be nos­tal­gic&nbsp;about.</p></div>
+            <div class="button blue rounded cropBottom popupTrigger ae-3 fromCenter" data-popup-id="71"><i class="material-icons">play_circle_filled</i>Watch the Video</div>
+          </div>
+          <div class="fix-12-12 margin-top-4">
+            <ul class="flex fixedSpaces later equal left flex-71">
+              <li class="col-4-12 ae-3">
+                <a href="#" class="cell-71 rounded equalElement">
+                  <i class="material-icons">panorama</i>
+                  <h4 class="smaller margin-bottom-1">HQ Photos</h4>
+                  <p class="small opacity-8">Quickly swipe messages to your archive or trash. <span class="nobr text-blue">Learn more →</span></p>
+                </a>
+              </li>
+              <li class="col-4-12 ae-4">
+                <a href="#" class="cell-71 rounded equalElement">
+                  <i class="material-icons">settings_applications</i>
+                  <h4 class="smaller margin-bottom-1">Useful Components</h4>
+                  <p class="small opacity-8">Scan entire conversations in a chat-like view. <span class="nobr text-blue">Learn more →</span></p>
+                </a>
+              </li>
+              <li class="col-4-12 ae-6">
+                <a href="#" class="cell-71 rounded equalElement last">
+                  <i class="material-icons">face</i>
+                  <h4 class="smaller margin-bottom-1">Best Music</h4>
+                  <p class="small opacity-8">Unforgettable feelings through a quality music. <span class="nobr text-blue">Learn more →</span></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-71.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="71">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 72 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-12-12 left">
+            <div class="fix-7-12 toLeft">
+              <div class="ae-1 fromRight"><p class="large opacity-8 margin-bottom-1">Sync faster</p></div>
+              <h1 class="larger margin-bottom-3 ae-2">Don&rsquo;t explain why it works, explain how you use it</h1>
+              <a href="#" class="button blue rounded ae-3 crop">Start free Trial</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-72.jpg)"></div>
+  </section>
+
+  <!-- 73 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-12-12">
+            <ul class="flex reverse">
+              <li class="col-6-12 left box-73">
+                <h1 class="margin-bottom-2 ae-2">Design well</h1>
+                <p class="large ae-3"><span class="opacity-8">I recently saw another demonstration of graphic design&rsquo;s ubiquity. Someone had taken a series of photographs of busy streets. In other words, they had removed all the graphic design from these photographs.</span></p>
+              </li>
+              <li class="col-6-12 left ae-1 fromAbove">
+                <img class="image-73 margin-bottom-tablet-4" src="assets/img/iphone-73.png" width="722" data-action="zoom" alt="iPhone Image"/>
+              </li>
+            </ul>
+          </div>  
+  
+          <div class="fix-12-12">
+            <ul class="flex fixedSpaces later equal flex-73 align-left margin-top-6 margin-top-tablet-0">
+              <li class="col-4-12 ae-3">
+                <a href="#" class="cell-73 padding-3 rounded equalElement">
+                  <h4 class="smaller margin-bottom-1">HQ Photos</h4>
+                  <p class="small cropBottom opacity-8">Quickly swipe messages to your archive or trash. <span class="nobr text-blue">Learn more →</span></p>
+                </a>
+              </li>
+              <li class="col-4-12 ae-4">
+                <a href="#" class="cell-73 padding-3 rounded equalElement">
+                  <h4 class="smaller margin-bottom-1">Useful Components</h4>
+                  <p class="small cropBottom opacity-8">Scan entire conversations in a chat-like view. <span class="nobr text-blue">Learn more →</span></p>
+                </a>
+              </li>
+              <li class="col-4-12 ae-6">
+                <a href="#" class="cell-73 padding-3 rounded equalElement last">
+                  <h4 class="smaller margin-bottom-1">Best Music</h4>
+                  <p class="small cropBottom opacity-8">Unforgettable feelings through a quality music. <span class="nobr text-blue">Learn more →</span></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-73.jpg)"></div>
+  </section>
+
+  <!-- 74 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-9-12">
+            <h1 class="smaller margin-bottom-2 ae-1">Simply Complicated</h1>
+            <p class="large ae-2"><span class="opacity-8">Creativity often consists of merely turning up what is already there. Did you know that right and left shoes were thought up only a little more than a century ago?</span></p>
+          </div>
+          <div class="fix-12-12 margin-top-4">  
+            <ul class="flex flex-74 fixedSpaces later equal">
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-3 fromCenter">
+                <a href="#" class="box-74">
+                  <div class="thumbnail-74">
+                    <img src="assets/img/gallery-74-1.jpg" class="wide" alt="Thumbnail"/>
+                  </div>
+                  <div class="name-74 equalElement table wide">
+                    <div class="cell left top">
+                      <h4 class="smaller margin-bottom-1">Inspiration</h4>
+                      <p class="small opacity-8 cropBottom">Creativity is allowing yourself to make&nbsp;mistakes.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-4 fromCenter">
+                <a href="#" class="box-74">
+                  <div class="thumbnail-74">
+                    <img src="assets/img/gallery-74-2.jpg" class="wide" alt="Thumbnail"/>
+                  </div>
+                  <div class="name-74 equalElement table wide">
+                    <div class="cell left top">
+                      <h4 class="smaller margin-bottom-1">The Moment</h4>
+                      <p class="small opacity-8 cropBottom">A person tends to critique a design in one of several&nbsp;ways.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromCenter">
+                <a href="#" class="box-74">
+                  <div class="thumbnail-74">
+                    <img src="assets/img/gallery-74-3.jpg" class="wide" alt="Thumbnail"/>
+                  </div>
+                  <div class="name-74 equalElement table wide">
+                    <div class="cell left top">
+                      <h4 class="smaller margin-bottom-1">Journey</h4>
+                      <p class="small opacity-8 cropBottom">More designers should share space, share&nbsp;resources.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromCenter">
+                <a href="#" class="box-74">
+                  <div class="thumbnail-74">
+                    <img src="assets/img/gallery-74-4.jpg" class="wide" alt="Thumbnail"/>
+                  </div>
+                  <div class="name-74 equalElement table wide">
+                    <div class="cell left top">
+                      <h4 class="smaller margin-bottom-1">Colorado</h4>
+                      <p class="small opacity-8 cropBottom">An essential aspect of creativity is not being afraid to&nbsp;fail.</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-74.jpg)"></div>
+  </section>
+
+  <!-- 75 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">Smoke & Mirrors</h1>
+            <p class="large ae-2"><span class="opacity-8">Design is a form of com­pet­it­ive advant­age. People tend to think of design as good art, good visual lan­guage, which it abso­lutely has to be.</span></p>
+          </div>
+          <div class="fix-12-12 margin-top-4">
+            <ul class="flex flex-75 fixedSpaces ae-3 popupTrigger noText" data-popup-id="75">
+              <li class="col-3-12 ae-6 fadeIn">
+                <img src="assets/img/gallery-75-1.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="0" alt="Image"/>
+                <img src="assets/img/gallery-75-2.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="1" alt="Image"/>
+              </li>
+              <li class="col-3-12 ae-3 fadeIn">
+                <img src="assets/img/gallery-75-3.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="2" alt="Image"/>
+              </li>
+              <li class="col-3-12 ae-2 fadeIn">
+                <img src="assets/img/gallery-75-4.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="3" alt="Image"/>
+                <img src="assets/img/gallery-75-5.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="4" alt="Image"/>
+              </li>
+              <li class="col-3-12 ae-7 fadeIn">
+                <img src="assets/img/gallery-75-6.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="5" alt="Image"/>
+                <img src="assets/img/gallery-75-7.jpg" class="wide rounded margin-bottom-2" data-slider-id="75" data-slider-action="6" alt="Image"/>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-75.jpg)"></div>
+  </section>
+  
+  <!-- Popup Gallery -->
+  <div class="popup animated" data-popup-id="75">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap spaces">
+  
+          <ul class="slider animated ae-1 fromAbove inlineBlock clickable popupContent disableSelect" data-slider-id="75" style="display: inline-block;">
+            <li class="selected">
+              <img src="assets/img/gallery-75-full-1.jpg" class="rounded" alt="Image"/>
+            </li>
+            <li>
+              <img src="assets/img/gallery-75-full-2.jpg" class="rounded" alt="Image"/>
+            </li>
+            <li>
+              <img src="assets/img/gallery-75-full-3.jpg" class="rounded" alt="Image"/>
+            </li>
+            <li>
+              <img src="assets/img/gallery-75-full-4.jpg" class="rounded" alt="Image"/>
+            </li>
+            <li>
+              <img src="assets/img/gallery-75-full-5.jpg" class="rounded" alt="Image"/>
+            </li>
+            <li>
+              <img src="assets/img/gallery-75-full-6.jpg" class="rounded" alt="Image"/>
+            </li>
+            <li>
+              <img src="assets/img/gallery-75-full-7.jpg" class="rounded" alt="Image"/>
+            </li>
+          </ul>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- 76 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12">
+            <ul class="flex reverse verticalCenter">
+              <li class="col-6-12 left">
+                <h1 class="margin-bottom-2 ae-1">Simple Elegance</h1>
+                <p class="ae-2"><span class="opacity-8">Design is an integ­rat­ive pro­cess that seeks res­ol­u­tion (not com­prom­ise) through cross-disciplinary team­work. Design is&nbsp;inten­tional.</span></p>
+                <div class="popupTrigger ae-3 fromRight relative verticalCenter margin-top-3" data-popup-id="76">
+                  <span class="button play white button-76 absolute">
+                    <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+                  </span>
+                  <div class="text-76"><p class="smaller bold uppercase cropBottom">Watch video</p><p class="small opacity-8 cropBottom">See Slides in action (2:00)</p></div>
+                </div>
+              </li>
+              <li class="col-6-12 left ae-1 fromAbove">
+                <img class="iphone-76" width="722" src="assets/img/iphone-76.png" alt="iPhone Image" data-action="zoom"/>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-76.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="76">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 77 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">Great design should be shared</h1>
+            <p class="large margin-bottom-4 ae-2"><span class="opacity-8">A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.</span></p>
+          </div>
+          <div class="fix-12-12">
+            <ul class="flex flex-77 fixedSpaces equal equalMobile align-left">
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1">
+                <a href="#" class="box-77 ae-3">
+                  <div class="thumbnail-77">
+                    <img src="assets/img/gallery-77-1.jpg" alt="Picture" class="wide"/>
+                  </div>
+                  <div class="details-77 padding-2 equalElement">
+                    <div class="table wide">
+                      <div class="cell">
+                        <h4 class="smaller margin-bottom-1">Baking Bread</h4>
+                        <p class="small opacity-8 cropBottom">Without music, life would be a mistake.</p>
+                        <div class="author-77 relative margin-top-2 padding-top-2 padding-left-4">
+                          <img width="30" class="avatar-77 round" src="assets/img/avatar-77-1.jpg" alt="Avatar">
+                          <p class="small cropBottom">Paul Rand</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1">
+                <a class="box-77 ae-4">
+                  <div class="thumbnail-77 video popupTrigger" data-popup-id="77">
+                    <img src="assets/img/gallery-77-2.jpg" alt="Picture" class="wide"/>
+                  </div>
+                  <div class="details-77 padding-2 equalElement">
+                    <div class="table wide">
+                      <div class="cell">
+                        <h4 class="smaller margin-bottom-1">Sourdough 101</h4>
+                        <p class="small opacity-8 cropBottom">One good thing about music, when it hits you.</p>
+                        <div class="author-77 relative margin-top-2 padding-top-2 padding-left-4">
+                          <img width="30" class="avatar-77 round" src="assets/img/avatar-77-2.jpg" alt="Avatar">
+                          <p class="small cropBottom">Ian Reeves</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1">
+                <a href="#" class="box-77 ae-5">
+                  <div class="thumbnail-77">
+                    <img src="assets/img/gallery-77-3.jpg" alt="Picture" class="wide"/>
+                  </div>
+                  <div class="details-77 padding-2 equalElement">
+                    <div class="table wide">
+                      <div class="cell">
+                        <h4 class="smaller margin-bottom-1">The Journey of a Cook</h4>
+                        <p class="small opacity-8 cropBottom">None but ourselves can free our minds.</p>
+                        <div class="author-77 relative margin-top-2 padding-top-2 padding-left-4">
+                          <img width="30" class="avatar-77 round" src="assets/img/avatar-77-3.jpg" alt="Avatar">
+                          <p class="small cropBottom">Georgia Alvarado</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1">
+                <a href="#" class="box-77 ae-6">
+                  <div class="thumbnail-77">
+                    <img src="assets/img/gallery-77-4.jpg" alt="Picture" class="wide"/>
+                  </div>
+                  <div class="details-77 padding-2 equalElement">
+                    <div class="table wide">
+                      <div class="cell">
+                        <h4 class="smaller margin-bottom-1">CBD Cookie Recipe</h4>
+                        <p class="small opacity-8 cropBottom">Some people have lives; some people have music.</p>
+                        <div class="author-77 relative margin-top-2 padding-top-2 padding-left-4">
+                          <img width="30" class="avatar-77 round" src="assets/img/avatar-77-4.jpg" alt="Avatar">
+                          <p class="small cropBottom">Justin Ortiz</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-77.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="77">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 78 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-7-12">
+            <div class="fix-3-12">
+              <svg height="77" class="wide ae-1 fromCenter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
+            </div>
+            <div class="ae-2 margin-top-2">
+              <p class="larger light"><span class="opacity-8">Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take&nbsp;away.</span></p>
+            </div>
+            <a href="#" class="button blue rounded ae-3">Start free trial</a><a href="#" class="button white rounded ae-4">Learn more</a>
+            <div class="ae-10 fromRight margin-top-1">
+              <p class="small"><span class="opacity-8">Also, we have a version for</span> <a class="bold" href="#">Mac</a></p>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-78.jpg)"></div>
+  </section>
+
+  <!-- 79 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-10-12">
+            <h1 class="smaller ae-2">“Design is the contrast of the core of limitations therefore there are no boundaries. It is simply an interpretation of creativity.”</h1>
+            
+            <div class="ae-3 author-79 left margin-top-4">
+              <img src="assets/img/avatar-79.jpg" width="64" class="avatar-79 round">
+              <h4 class="smaller margin-bottom-1">Paul Rand</h4>
+              <p class="small opacity-8">Graphic designer, Art director</p>
+            </div> 
+          </div>   
+            
+          <div class="fix-10-12">
+            <ul class="flex flex-79 margin-top-6 later left">
+              <li class="col-6-12 ae-4">
+                <i class="material-icons">near_me</i>
+                <h4 class="smaller margin-bottom-1">Location</h4>
+                <p class="small opacity-8">The best stories of the week, delivered right to your inbox. No spam, we promise.</p>
+              </li>
+              <li class="col-6-12 ae-5">
+                <i class="material-icons">layers</i>
+                <h4 class="smaller margin-bottom-1">Layers</h4>
+                <p class="small opacity-8">Less time shopping means more time Doing Things, so we created Slides Framework. It’s built to impress!</p>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-79.jpg)"></div>
+  </section>
+
+  <!-- 80 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12">
+            <h1 class="smaller margin-bottom-2 ae-1 fromLeft">Let Design Function</h1>
+            <div class="ae-2 fromLeft">
+              <p class="large opacity-8">Designers can create normalcy out of chaos; they can clearly communicate ideas through the organizing and manipulating of words and&nbsp;pictures.</p>
+            </div>
+          </div>
+  
+          <div class="fix-10-12 margin-top-2">
+            <ul class="flex flex-80 fixedSpaces equal reverse">
+              <li class="col-6-12">
+                <div class="box-80 padding-4 equalElement left ae-3 rounded">
+                  <p class="large cropTop ae-5"><span class="opacity-8">I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.</span></p>
+                  <div class="margin-top-5 ae-6">
+                    <h4 class="smallest">Paul Rand</h4>
+                    <p class="small opacity-8 cropBottom">Graphic Designer, Art Director</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-6-12">
+                <div class="videoThumbnail rounded shadow wide cover equalElement popupTrigger ae-4 padding-14" data-popup-id="80" style="background:url(assets/img/image-80.jpg);"></div>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-80.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="80">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 81 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12">
+            <h1 class="smaller margin-bottom-2 ae-1 fromLeft">Derived Meaning</h1>
+            <div class="ae-2 fromLeft"><p class="large opacity-8">I see graphic design as the organization of information that is semantically correct, syntactically consistent and pragmatically understandable.</p>
+            </div>
+            <div class="margin-top-4">
+              <div class="videoThumbnail rounded shadow popupTrigger ae-6" data-popup-id="81">
+              <img src="assets/img/image-81.jpg" class="wide" alt="Thumbnail"/></div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-81.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="81">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 82 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-7-12 noSelect">
+            <div class="relative">
+              <div class="leftControl-82 ae-5 fromLeft" data-slider-id="82" data-slider-action="prev"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></div>
+              <div class="rightControl-82 ae-5 fromRight" data-slider-id="82" data-slider-action="next"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></div>
+              <ul class="slider clickable animated margin-bottom-2 ae-1 fadeIn" data-slider-id="82">
+                <li class="selected"><img src="assets/img/iphone-82-1.png" class="wide" alt="iPhone Thumbnail"/></li>
+                <li><img src="assets/img/iphone-82-2.png" class="wide" alt="iPhone Thumbnail"/></li>
+                <li><img src="assets/img/iphone-82-3.png" class="wide" alt="iPhone Thumbnail"/></li>
+                <li><img src="assets/img/iphone-82-4.png" class="wide" alt="iPhone Thumbnail"/></li>
+              </ul>
+              <ul class="controller dots ae-3 fromBottom" data-slider-id="82">
+                <li class="dot selected"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+              </ul>
+            </div>
+            <div class="fix-5-12 margin-top-2">
+              <h1 class="smaller margin-bottom-2 ae-5 fronLeft">The Main Reason</h1>
+              <div class="ae-6 fromrRight">
+                <p class="large margin-bottom-3 opacity-8">There&rsquo;s a subtle reason that programmers always want to throw away the code and start over.</p>
+                <a href="#" class="button blue rounded cropBottom ae-7 fromCenter"><i class="material-icons">textsms</i> Say Hello</a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-82.jpg)"></div>
+  </section>
+
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="82">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+            <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+                <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- 83 -->
+    <section class="slide fade-6 kenBurns">
+      <div class="content">
+        <div class="container">
+          <div class="wrap">
+          
+            <div class="fix-9-12">
+              <h1 class="smaller margin-bottom-2 ae-1">Pricing</h1>
+              <ul class="flex flex-83 noSpaces equal ae-2 fadeIn">
+                <li class="col-4-12 ae-3" style="background: #f5fbfe">
+                  <h4 class="smaller margin-bottom-1">Moon</h4>
+                  <div class="price ae-5"><span class="currency">$</span>0</div>
+                  <div class="ae-5">
+                    <p class="smallest uppercase bolder opacity-4">No Payment Needed</p>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
+                    <ul class="p small">
+                      <li><strong>25 Free Images</strong></li>
+                      <li class="opacity-7">Custom Domain</li>
+                      <li class="opacity-7">24/7 Customer Support</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="button blue rounded wide cropSides cropBottom ae-7">Try Free</a>
+                </li>
+                <li class="col-4-12 ae-4">
+                  <h4 class="smaller margin-bottom-1">Planet</h4>
+                  <div class="price ae-6"><span class="currency">$</span>6</div>
+                  <div class="ae-6">
+                    <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
+                    <ul class="p small">
+                      <li><strong>60 Free Images</strong></li>
+                      <li><strong>Mobile-Optimized</strong></li>
+                      <li><strong>No Transaction Fees</strong></li>
+                      <li class="opacity-8">Custom Domain</li>
+                      <li class="opacity-8">24/7 Customer Support</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="button green rounded wide cropSides cropBottom ae-8">Purchase</a>
+                </li>
+                <li class="col-4-12 ae-5">
+                  <h4 class="smaller margin-bottom-1">Galaxy</h4>
+                  <div class="price ae-7"><span class="currency">$</span>24</div>
+                  <div class="ae-7">
+                    <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-8">
+                    <ul class="p small">
+                      <li><strong>60 Free Images</strong></li>
+                      <li><strong>Mobile-Optimized</strong></li>
+                      <li><strong>No Transaction Fees</strong></li>
+                      <li><strong>Unlimited Projects</strong></li>
+                      <li class="opacity-8">Custom Domain</li>
+                      <li class="opacity-8">24/7 Customer Support</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="button green rounded wide cropSides cropBottom ae-9">Purchase</a>
+                </li>
+              </ul>
+            </div> 
+    
+          </div>
+        </div>
+      </div>
+      <div class="background" style="background-image:url(assets/img/background/img-83.jpg)"></div>
+    </section>
+
+    <!-- 84 -->
+    <section class="slide fade-6 kenBurns">
+        <div class="content">
+          <div class="container">
+            <div class="wrap">
+            
+              <div class="fix-12-12">
+                <h1 class="smaller margin-bottom-2 ae-1">Choose Plan</h1>
+                <ul class="flex flex-84 noSpaces equal equalMobile ae-2 fromCenter">
+                  <li class="col-3-12 ae-3" style="background: #F5FBFE">
+                    <h4 class="smaller margin-bottom-1">Moon</h4>
+                    <div class="price ae-5"><span class="currency">$</span>0</div>
+                    <div class="ae-5">
+                      <p class="smallest uppercase bolder opacity-4">No Payment Needed</p>
+                    </div>
+                    <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
+                      <ul class="p small">
+                        <li><strong>25 Free Images</strong></li>
+                        <li class="opacity-8">Custom Domain</li>
+                        <li class="opacity-8">24/7 Customer Support</li>
+                      </ul>
+                    </div>
+                    <a href="#" class="button blue rounded wide cropSides cropBottom ae-7">Try Free</a>
+                  </li>
+                  <li class="col-3-12 ae-4">
+                    <h4 class="smaller margin-bottom-1">Planet</h4>
+                    <div class="price ae-6"><span class="currency">$</span>6</div>
+                    <div class="ae-6">
+                      <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
+                    </div>
+                    <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
+                      <ul class="p small">
+                        <li><strong>60 Free Images</strong></li>
+                        <li><strong>Mobile-Optimized</strong></li>
+                        <li class="opacity-8">Custom Domain</li>
+                        <li class="opacity-8">24/7 Customer Support</li>
+                      </ul>
+                    </div>
+                    <a href="#" class="button green rounded wide cropSides cropBottom ae-8">Purchase</a>
+                  </li>
+                  <li class="col-3-12 ae-5">
+                    <h4 class="smaller margin-bottom-1">Galaxy</h4>
+                    <div class="price ae-7"><span class="currency">$</span>9</div>
+                    <div class="ae-7">
+                      <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
+                    </div>
+                    <div class="margin-top-3 margin-bottom-3 equalElement ae-8">
+                      <ul class="p small">
+                        <li><strong>60 Free Images</strong></li>
+                        <li><strong>Mobile-Optimized</strong></li>
+                        <li><strong>No Transaction Fees</strong></li>
+                        <li class="opacity-8">Custom Domain</li>
+                        <li class="opacity-8">24/7 Customer Support</li>
+                      </ul>
+                    </div>
+                    <a href="#" class="button green rounded wide cropSides cropBottom ae-9">Purchase</a>
+                  </li>
+                  <li class="col-3-12 ae-5">
+                    <h4 class="smaller margin-bottom-1">Galaxy</h4>
+                    <div class="price ae-7"><span class="currency">$</span>24</div>
+                    <div class="ae-7">
+                      <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
+                    </div>
+                    <div class="margin-top-3 margin-bottom-3 equalElement ae-8">
+                      <ul class="p small">
+                        <li><strong>60 Free Images</strong></li>
+                        <li><strong>Mobile-Optimized</strong></li>
+                        <li><strong>No Transaction Fees</strong></li>
+                        <li><strong>Unlimited Projects</strong><span class="helpBubble relative"><div class="helpMessage">The most innovative designers <strong>consciously</strong> reject the standard and cultivate.</div></span></li>
+                        <li class="opacity-8">Custom Domain</li>
+                        <li class="opacity-8">24/7 Customer Support</li>
+                      </ul>
+                    </div>
+                    <a href="#" class="button green rounded wide cropSides cropBottom ae-9">Purchase</a>
+                  </li>
+                </ul>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+        <div class="background" style="background-image:url(assets/img/background/img-84.jpg)"></div>
+    </section>
+
+  <!-- 85 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-6-12">
+            <h1 class="smaller margin-bottom-2 ae-1">Pricing</h1>
+            <ul class="flex flex-85 fixedSpaces equal ae-2 fromCenter" data-equal-collapse-width="767">
+              <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 margin-bottom-2 ae-3">
+                <div class="pad" style="background: #F5FBFE">
+                  <h4 class="smaller margin-bottom-1">Moon</h4>
+                  <div class="price ae-5"><span class="currency">$</span>0</div>
+                  <div class="ae-5">
+                    <p class="smallest uppercase bolder opacity-4">No Payment Needed</p>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
+                    <ul class="p small">
+                      <li><strong>25 Free Images</strong></li>
+                      <li class="opacity-8">Custom Domain</li>
+                      <li class="opacity-8">24/7 Customer Support</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="button green rounded wide cropSides cropBottom ae-7">Try Free</a>
+                </div>
+              </li>
+              <li class="col-6-12 col-tablet-1-2 col-phablet-1-1 ae-4">
+                <div class="pad">
+                  <h4 class="smaller margin-bottom-1">Planet</h4>
+                  <div class="price ae-6"><span class="currency">$</span>6</div>
+                  <div class="ae-6">
+                    <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
+                  </div>
+                  <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
+                    <ul class="p small">
+                      <li><strong>60 Free Images</strong></li>
+                      <li><strong>Mobile-Optimized</strong></li>
+                      <li><strong>No Transaction Fees</strong></li>
+                      <li class="opacity-8">Custom Domain</li>
+                      <li class="opacity-8">24/7 Customer Support</li>
+                    </ul>
+                  </div>
+                  <a href="#" class="button blue rounded wide cropSides cropBottom ae-8">Purchase</a>
+                </div>
+              </li>
+            </ul>
+          </div> 
+          
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-85.jpg)"></div>
+  </section>
+
+  <!-- 86 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12 left">
+            <div class="fix-6-12 toLeft">
+              <h1 class="margin-bottom-5 ae-1 fromLeft">Only work with people you&rsquo;d invite to your home for a meal.</h1>
+              <div class="popupTrigger ae-3 fromRight relative margin-top-4" data-popup-id="86">
+                  <span class="button play white button-86 absolute">
+                    <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#play"></use></svg>
+                  </span>
+                  <div class="text-86"><p class="smaller bold uppercase cropBottom">Watch video</p><p class="cropBottom small opacity-8">See Slides in action (2:00)</p></div>
+                </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-86.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="86">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 87 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-10-12">
+            <h1 class="smaller margin-bottom-2 ae-1 fromLeft">Good design is partially creativity</h1>
+            <p class="large margin-bottom-4 ae-2 fromLeft"><span class="opacity-8">Learning never exhausts the mind.</span></p>
+            <div class="videoThumbnail margin-bottom-4 noShadow noTint ae-3 popupTrigger" data-popup-id="87">
+              <img width="722" src="assets/img/iphone-87.png" alt="Keyboard"/>
+            </div>
+            <ul class="flex fixedSpaces left box-87 equal equalMobile" >
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1 equalElement margin-top-1 ae-5 fromCenter">
+               <h4 class="smaller margin-bottom-1">Sync Faster</h4>
+               <p class="small opacity-8">Quickly swipe messages to your archive or&nbsp;trash.</p>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1 equalElement margin-top-1 ae-6 fromCenter">
+               <h4 class="smaller margin-bottom-1">Automate</h4>
+               <p class="small opacity-8">Just select a photo, drop items that you&nbsp;like.</p>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1 equalElement margin-top-1 ae-7 fromCenter">
+               <h4 class="smaller margin-bottom-1">Branding</h4>
+               <p class="small opacity-8">Just select a color and drop items that you&nbsp;like.</p>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1 equalElement margin-top-1 ae-8 fromCenter">
+               <h4 class="smaller margin-bottom-1">Creative Ideas</h4>
+               <p class="small opacity-8">Create unique items by pasting your&nbsp;design.</p>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-87.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="87">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 88 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12">
+            <h1 class="small margin-bottom-2 ae-1">Look For a Solution</h1>
+            <div class="button blue rounded cropBottom popupTrigger margin-top-2 ae-2 fromCenter" data-popup-id="88"><i class="material-icons">play_circle_filled</i>See Slides in Action</div>
+          </div>
+  
+          <div class="fix-12-12">
+            <ul class="flex later margin-top-6 left">
+              <li class="col-6-12 box-88">
+                <div class="quoteBubble ae-4 fromLeft">
+                  <p class="larger light cropBottom opacity-8">The critical distinction between a craftsman and an expert is what happens after a sufficient level of expertise has been achieved. The expert will do everything she can remain.</p>
+                </div>
+                <p class="margin-top-3 ae-6 fromRight"><strong>Paul Rand</strong> <span class="opacity-7">Graphic designer, Art director</span></p>
+              </li>
+              <li class="col-6-12">
+                <ul class="flex fromBottomRight fixedSpaces margin-top-2">
+                  <li class="col-6-12 col-phablet-1-2 ae-6">
+                    <h4 class="smaller margin-bottom-1">Mockup</h4>
+                    <p class="opacity-8 margin-bottom-3">Select premade adjustment layers with ease.</p>
+                  </li>
+                  <li class="col-6-12 col-phablet-1-2 ae-7">
+                    <h4 class="smaller margin-bottom-1">Layers</h4>
+                    <p class="opacity-8 margin-bottom-3">Open a smart object, paste your design and save.</p>
+                  </li>
+                  <li class="col-6-12 col-phablet-1-2 ae-8">
+                    <h4 class="smaller margin-bottom-1">Branding</h4>
+                    <p class="opacity-8 margin-bottom-3">Select a background, drop items that you like.</p>
+                  </li>
+                  <li class="col-6-12 col-phablet-1-2 ae-9">
+                    <h4 class="smaller margin-bottom-1">Present</h4>
+                    <p class="opacity-8 margin-bottom-3">Create items by pasting your design, text or logo.</p>
+                  </li>
+  
+                </ul>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-88.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="88">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 89 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12">
+            <ul class="flex left verticalCenter">
+              <li class="col-7-12 fromBottomLeft">
+                <div class="fix-6-12 toLeft">
+                  <p class="large opacity-8 margin-bottom-2 ae-1">Case study</p>
+                  <h1 class="smaller margin-bottom-2 ae-2">The Secret of Success</h1>
+                  <div class="ae-3"><p class="large opacity-8">No matter how many times your amazing, absolutely brilliant work is rejected by the client, for whatever dopey, arbitrary reason, there is often another amazing, absolutely brilliant solution&nbsp;possible.</p></div>
+                  <ul class="flex fixedSpaces">
+                    <li class="col-6-12 ae-3">
+                      <h4 class="smaller margin-top-3 margin-bottom-1">Camera</h4>
+                      <p class="opacity-8">Scan entire conversations with friends in a chat-like view.</p>
+                    </li>
+                    <li class="col-6-12 ae-4">
+                      <h4 class="smaller margin-top-3 margin-bottom-1">Messages</h4>
+                      <p class="opacity-8">Quickly swipe down messages to your archive or trash.</p>
+                    </li>
+                    <li class="col-6-12 ae-5">
+                      <h4 class="smaller margin-top-3 margin-bottom-1">Music Center</h4>
+                      <p class="opacity-8">Unforgettable feelings through the best quality music.</p>
+                    </li>
+                    <li class="col-6-12 ae-6">
+                      <h4 class="smaller margin-top-3 margin-bottom-1">Channels</h4>
+                      <p class="opacity-8">Comment, read reviews, and compare customer ratings.</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="col-5-12 bottom">
+                <div class="videoThumbnail shadow rounded popupTrigger margin-bottom-3 ae-7" data-popup-id="89">
+                  <img src="assets/img/image-89-1.jpg" class="wide" alt="Video Thumbnail"/>
+                </div>
+                <img src="assets/img/image-89-2.jpg" data-action="zoom" class="shadow rounded ae-8" alt="Image"/>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-89.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="89">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-12-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 90 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-8-12 toCenter">
+            <p class="larger margin-bottom-1 ae-1"><span class="opacity-8">Case study</span></p>
+            <h1 class="smaller margin-bottom-2 ae-1">Create your own visual style</h1>
+            <p class="large light ae-2"><span class="opacity-8">However, I’ve always been more concerned with users. Programmers do their work but once, while users are saddled with it ever thereafter.</span></p>
+          </div>
+          <div class="fix-12-12 margin-top-4">
+            <ul class="flex fixedSpaces later left">
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
+                <div class="button rounded empty margin-bottom-2 videoThumbnail noShadow popupTrigger ae-3" data-popup-id="90"><img class="wide" src="assets/img/gallery-90-1.jpg" alt="Video Thumbnail"/></div>
+                <h4 class="smaller margin-bottom-1 ae-4">Inspiration</h4>
+                <div class="ae-5"><p class="small opacity-8">We live in a society where everybody feels shameless and guilty.</p></div>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
+                <a href="#" class="button rounded empty margin-bottom-2 ae-4"><img class="wide" src="assets/img/gallery-90-2.jpg" alt="Image Thumbnail"/></a>
+                <h4 class="smaller margin-bottom-1 ae-5">Creativity</h4>
+                <div class="ae-6"><p class="small opacity-8">Hey there! You don’t have to be “a creative” to be creative.</p></div>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
+                <a href="#" class="button rounded empty margin-bottom-2 ae-5"><img class="wide" src="assets/img/gallery-90-3.jpg" alt="Image Thumbnail"/></a>
+                <h4 class="smaller margin-bottom-1 ae-6">Fashion</h4>
+                <div class="ae-7"><p class="small opacity-8">There is no such thing as simple. Simple is actually hard to achieve.</p></div>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
+                <a href="#" class="button rounded empty margin-bottom-2 ae-6"><img class="wide" src="assets/img/gallery-90-4.jpg" alt="Image Thumbnail"/></a>
+                <h4 class="smaller margin-bottom-1 ae-7">Photography</h4>
+                <div class="ae-8"><p class="small opacity-8">Design is a language that makes what was once impossible possible.</p></div>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-90.jpg)"></div>
+  </section>
+  
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="90">
+    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent shadow rounded">
+              <iframe data-src="https://www.youtube.com/embed/g8yBqxTiHSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- 91 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-12-12 toCenter">
+            <div class="fix-8-12">
+              <p class="large margin-bottom-2 ae-1"><span class="opacity-8">Case study</p>
+              <h1 class="margin-bottom-4 ae-2 fromAbove">Discomfort is a Signal of a Good Concept</h1>
+              <a href="#" class="button green rounded ae-3">Purchase</a>
+            </div>
+            <ul class="flex fixedSpaces left margin-top-10">
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-4 fromLeft">
+               <h4 class="smaller margin-bottom-1">Inspiration</h4>
+               <p class="small opacity-8">We live in a society where everybody feels shameless and guilty.</p>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-5 fromLeft">
+               <h4 class="smaller margin-bottom-1">Creativity</h4>
+               <p class="small opacity-8">Hey there! You don’t have to be “a creative” to be creative.</p>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-6 fromLeft">
+               <h4 class="smaller margin-bottom-1">Fashion</h4>
+               <p class="small opacity-8">There is no such thing as simple. Simple is actually hard to achieve.</p>
+              </li>
+              <li class="col-3-12 col-tablet-1-2 col-phablet-1-1 ae-7 fromLeft">
+               <h4 class="smaller margin-bottom-1">Photography</h4>
+               <p class="small opacity-8">Design is a language that makes what was once impossible possible.</p>
+              </li>
+            </ul>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-91.jpg)"></div>
+  </section>
+
+  <!-- 92 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-9-12">
+            <h1 class="smaller margin-bottom-4 ae-1">In a meat-eating world, wearing leather for shoes and even clothes.</h1>
+            <a href="#" class="button green rounded ae-2">Purchase</a>
+            <div class="ae-3 margin-top-2"><p><span class="opacity-8">or call</span><a class="bold block opacity-8" href="tel:+1999145267">+1 (999) 123-45-67</a></p></div>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-92.jpg)"></div>
+  </section>
+
+  <!-- 93 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="frame-93 rounded ae-1">
+            <div class="ae-2"><p class="larger light cropBottom inline">Get started. Everything to get you up and&nbsp;running.<a href="#" class="button blue rounded middle margin-top-1 margin-left-2 margin-right-2 ae-3 wideForTablet margin-tablet-0 margin-top-tablet-2">Start Free Trial</a></p></div>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-93.jpg)"></div>
+  </section>
+
+  <!-- 94 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+        
+          <div class="fix-5-12">
+            <h1 class="ae-1 margin-bottom-3">Start free trial</h1>
+            <form action="#" autocomplete="off" class="slides-form margin-bottom-3">
+              <input type="email" class="rounded ae-2 fromLeft" name="email" placeholder="E-mail address"/>
+              <button type="submit" class="button blue rounded ae-3 fromRight" name="submit">Try it Free</button>
+            </form>
+            <p class="small ae-4"><span class="opacity-8">No risk trial &nbsp;&bull;&nbsp; Support &nbsp;&bull;&nbsp; Frequent updates</span></p>
+          </div>
+                  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-94.jpg)"></div>
+  </section>
+
+  <!-- 95 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <h1 class="ae-1 margin-bottom-2">Download Mobile App</h1>
+          <p class="larger light ae-2 margin-bottom-4"><span class="opacity-8">Learning never exhausts the mind.</span></p>
+  
+          <div class="fix-5-12">
+            <form action="#" autocomplete="off" class="slides-form margin-bottom-3">
+              <input type="email" class="rounded ae-3" name="email" placeholder="E-mail address"/>
+              <button type="submit" class="button blue rounded ae-4" name="submit">Try it Free</button>
+            </form>
+          </div>
+  
+          <a href="#" class="button hollow ae-5"><img src="assets/img/appstore.jpg" height="52"/></a><a href="#" class="button hollow ae-6"><img src="assets/img/googleplay.jpg" height="52"/></a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-95.jpg)"></div>
+  </section>
+
+  <!-- 96 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap padding-top-phablet-5">
+  
+          <div class="fix-8-12 toCenter margin-bottom-5">
+            <h1 class="ae-1 smaller">New Releases</h1>
+          </div>
+          <div class="fix-12-12">
+            <ul class="flex later equal left">
+              <li class="image-96 col-4-12 padding-bottom-phablet-3">
+                <img class="rounded ae-3" src="assets/img/album-96.jpg" alt="Image Thumbnail" data-action="zoom"/>
+              </li>
+              <li class="col-8-12 padding-left-5 padding-phablet-0 music-96">
+                <h3 class="smallest margin-bottom-2 equalElement ae-2">Top 50 Worldwide</h3>
+                <div class="ae-3 margin-bottom-3"><p class="opacity-8">The most played tracks on SoundCloud this week</p></div>
+                <div class="sc-player-container fromRight">
+                  <a href="https://soundcloud.com/tecmusicnorway/ariana-grande-touch-it-slipenberg-remix" class="p sc-player margin-bottom-2 ae-3"></a>
+                  <a href="https://soundcloud.com/aritusmusic/aritus-keep-1" class="p sc-player margin-bottom-2 ae-4"></a>
+                  <a href="https://soundcloud.com/butch_le_butch/dua-lipa-blow-your-mind-mwah-butch-le-butch-lost-disco-version" class="p sc-player margin-bottom-2 ae-5"></a>
+                  <a href="https://soundcloud.com/travelermusic/tuxedo-do-it-traveler-remix" class="p sc-player margin-bottom-2 ae-6"></a>
+                  <a href="https://soundcloud.com/aaron-krause-music/jade-mason-self-remix" class="p sc-player margin-bottom-2 ae-7"></a>
+                  <a href="https://soundcloud.com/fruitybeats/moi-je-fais-rien-petit-biscuit-remix" class="p sc-player margin-bottom-2 ae-8"></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-96.jpg)"></div>
+  </section>
+  
+
+  <!-- 97 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap padding-top-phablet-5">
+  
+          <div class="fix-8-12 toCenter">
+            <h1 class="smaller margin-bottom-2 ae-1">Upcoming Shows</h1>
+            <p class="ae-2 large margin-bottom-4"><span class="opacity-8">Shop deals on amazing live events near you.</span></p>
+          </div>
+          <div class="fix-12-12">
+            <div class="frame-97 ae-3">
+              <p class="white calendar-97 absolute"><span class="center uppercase block bold month">jan</span><span class="number normal">23</span></p>
+              <p class="large light align-left cropBottom inline-block">
+                <span class="margin-left-10 middle margin-left-phablet-0 title-group-97">New Dewayne</span>
+                <span class="inline-block middle phablet-block margin-top-phablet-1">Atlanta, GA</span>
+                <a href="#" class="button green rounded small crop button-buy-97 margin-top-phablet-1">Tickets</a>
+              </p>
+            </div>
+            <div class="frame-97 ae-4">
+              <p class="white calendar-97 absolute"><span class="center uppercase block bold month">jan</span><span class="number normal">24</span></p>
+              <p class="large light align-left cropBottom inline-block">
+                <span class="margin-left-10 middle margin-left-phablet-0 title-group-97">Vinoy Park</span>
+                <span class="inline-block middle phablet-block margin-top-phablet-1">Cristalhaven</span>
+                <a href="#" class="button green rounded small crop button-buy-97 margin-top-phablet-1">Tickets</a>
+              </p>
+            </div>
+            <div class="frame-97 ae-5">
+              <p class="white calendar-97 absolute"><span class="center uppercase block bold month">jan</span><span class="number normal">26</span></p>
+              <p class="large light align-left cropBottom inline-block">
+                <span class="margin-left-10 middle margin-left-phablet-0 title-group-97">Buckridgebury</span>
+                <span class="inline-block middle phablet-block margin-top-phablet-1">North Eloisa</span>
+                <a href="#" class="button green rounded small crop button-buy-97 margin-top-phablet-1">Tickets</a>
+              </p>
+            </div>
+            <div class="frame-97 ae-6">
+              <p class="white calendar-97 absolute"><span class="center uppercase block bold month">jan</span><span class="number normal">28</span></p>
+              <p class="large light align-left cropBottom inline-block">
+                <span class="margin-left-10 middle margin-left-phablet-0 title-group-97">Lake Brennonchester</span>
+                <span class="inline-block middle phablet-block margin-top-phablet-1">Lake Marinaview</span>
+                <a href="#" class="button thin-stroke rounded small crop text-white button-buy-97 margin-top-phablet-1 flat disable-pointer-events noShadowHover">Sold Out</a>
+              </p>
+            </div>
+            <div class="frame-97 ae-7 opacity-5">
+              <p class="white calendar-97 absolute"><span class="center uppercase block bold month">jan</span><span class="number normal">30</span></p>
+              <p class="large light align-left cropBottom inline-block">
+                <span class="margin-left-10 middle margin-left-phablet-0 title-group-97">West Keaganstad</span>
+                <span class="inline-block middle phablet-block margin-top-phablet-1">South Austen</span>
+                <a href="#" class="button thin-stroke rounded small crop text-white button-buy-97 margin-top-phablet-1 flat disable-pointer-events noShadowHover">Cancelled</a>
+              </p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-97.jpg)"></div>
+  </section>
+
+  <!-- 98 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+  
+          <div class="fix-12-12 ae-1">
+            <div class="swiper-98">
+              <div class="swiper-wrapper">
+                <a href="#" class="box-98 swiper-slide noText">
+                  <div class="relative text-white disableSelect">
+                    <img src="assets/img/gallery-98-1.jpg" alt="Picture" class="wide rounded"/>
+                    <p class="smallest uppercase bold title-slide-98 opacity-8">Display</p>
+                    <h4 class="small subtitle-slide-98">Pictures in Which the Magic Lives</h4>
+                    <div class="blackout-98"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-98 swiper-slide noText">
+                  <div class="relative text-white disableSelect">
+                    <img src="assets/img/gallery-98-2.jpg" alt="Picture" class="wide rounded"/>
+                    <p class="smallest uppercase bold title-slide-98 opacity-8">Gallery</p>
+                    <h4 class="small subtitle-slide-98">20 Most Strange Paintings in the World</h4>
+                    <div class="blackout-98"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-98 swiper-slide noText">
+                  <div class="relative text-white disableSelect">
+                    <img src="assets/img/gallery-98-3.jpg" alt="Picture" class="wide rounded"/>
+                    <p class="smallest uppercase bold title-slide-98 opacity-8">Exhibition</p>
+                    <h4 class="small subtitle-slide-98">South Korean Artist: The Origin of Creativity</h4>
+                    <div class="blackout-98"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-98 swiper-slide noText">
+                  <div class="relative text-white disableSelect">
+                    <img src="assets/img/gallery-98-1.jpg" alt="Picture" class="wide rounded"/>
+                    <p class="smallest uppercase bold title-slide-98 opacity-8">Display</p>
+                    <h4 class="small subtitle-slide-98">Pictures in Which the Magic Lives</h4>
+                    <div class="blackout-98"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-98 swiper-slide noText">
+                  <div class="relative text-white disableSelect">
+                    <img src="assets/img/gallery-98-2.jpg" alt="Picture" class="wide rounded"/>
+                    <p class="smallest uppercase bold title-slide-98 opacity-8">Gallery</p>
+                    <h4 class="small subtitle-slide-98">20 Most Strange Paintings in the World</h4>
+                    <div class="blackout-98"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-98 swiper-slide noText">
+                  <div class="relative text-white disableSelect">
+                    <img src="assets/img/gallery-98-3.jpg" alt="Picture" class="wide rounded"/>
+                    <p class="smallest uppercase bold title-slide-98 opacity-8">Exhibition</p>
+                    <h4 class="small subtitle-slide-98">South Korean Artist: The Origin of Creativity</h4>
+                    <div class="blackout-98"></div>
+                  </div>
+                </a>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination ae-3"></div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-98.jpg)"></div>
+  </section>
+  
+  <!-- 99 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap padding-top-phablet-5">
+  
+          <div class="fix-12-12 ae-1">
+            <div class="swiper-99">
+              <div class="swiper-wrapper">
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-1.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">How to start a fide in the wet forest</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-2.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">How to find a cover in the dust storm</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-3.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">How to make a quick shelter in a mountain</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-4.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">Practical tricks to stay afloat in water</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-1.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">How to start a fide in the wet forest</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-2.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">How to find a cover in the dust storm</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-3.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">How to make a quick shelter in a mountain</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+                <a href="#" class="box-99 swiper-slide noText cursorGrab">
+                  <div class="thumbnail-99 text-white disableSelect">
+                    <img src="assets/img/gallery-99-4.jpg" alt="Picture" class="wide rounded"/>
+                    <h4 class="smaller title-slide-99">Practical tricks to stay afloat in water</h4>
+                    <p class="more-99 smallest uppercase bold opacity-8">Learn More</p>
+                    <div class="blackout-99 rounded"></div>
+                  </div>
+                </a>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination ae-3"></div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-99.jpg)"></div>
+  </section>
+
+  <!-- 100 -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap padding-top-phablet-5">
+  
+          <div class="fix-12-12">
+            <ul class="flex later">
+              <li class="col-7-12 left ae-1  flex-slide-100">
+  
+                <div class="wrap-img-100" style="background-image: url(assets/img/image-100.jpg);">
+                  <div class="blackout rounded"></div>
+                  <div class="wrap-text-100 wrap-text-100">
+                    <h1 class="smaller margin-bottom-1 ae-2">The secret of success</h1>
+                    <p class="large ae-3 margin-bottom-2">No matter how many times your amazing, absolutely brilliant work is rejected by the client, for whatever dopey</p>
+                    <a href="#" class="button rounded white ae-4 crop">Read More</a>
+                  </div>
+                </div>
+              </li>
+              <li class="col-5-12 left padding-left-3 padding-left-phablet-0 margin-top-phablet-3">
+                <h3 class="ae-2 smallest margin-bottom-3">Recent Posts</h3>
+                  
+                <a href="#" class="item-100 rounded margin-bottom-2">
+                  <h4 class="small margin-bottom-1">40 Lessons About Web You Need To Learn Before You Hit</h4>
+                  <p class="smallest uppercase bold opacity-8 cropBottom">Learn More</p>
+                </a>
+                <a href="#" class="item-100 rounded margin-bottom-2">
+                  <h4 class="small margin-bottom-1">40 Lessons About Web You Need To Learn Before You Hit</h4>
+                  <p class="smallest uppercase bold opacity-8 cropBottom">Learn More</p>
+                </a>
+                <a href="#" class="item-100 rounded">
+                  <h4 class="small margin-bottom-1">40 Lessons About Web You Need To Learn Before You Hit</h4>
+                  <p class="smallest uppercase bold opacity-8 cropBottom">Learn More</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <div class="background" style="background-image:url(assets/img/background/img-100.jpg)"></div>
+  </section>
+  
+
+
+
+  <nav class="panel bottom lastSlideOnly forceMobileView">
+
+    <div class="sections">
+      <div class="center">
+          <ul class="menu crop">
+            <li><a href="http://facebook.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+            <li><a href="http://twitter.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+            <li><a href="http://instagram.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sections">
+      <div class="left"></div>
+      <div class="center"><a href="#" class="opacity-8">Available <svg style="height:21px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#apple"></use></svg> iPhone</a></div>
+      <div class="right"><span data-dropdown-id="2" class="button actionButton dropdownTrigger"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#share"></use></svg></span></div>
+    </div>
+
+  </nav>
+
+  <!-- Share Window -->
+  <div class="dropdown share bottom right" data-dropdown-id="2">
+    <div class="center padding-2">
+      <div class="title">Share</div>
+      <a href="#">Contact us</a>
+    </div>
+    <ul>
+      <li class="social-facebook"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fb-like"></use></svg></li>
+      <li class="social-twitter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></li>
+      <li class="social-pinterest"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></li>
+      <li class="social-linkedin"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use></svg></li>
+      <li class="mail" data-subject="Subject" data-body="Body">share by email</li>
+    </ul>
+  </div>
+
+  <!-- Loading Progress Bar -->
+  <div class="progress-bar blue"></div>
+
+</body>
+</html>
