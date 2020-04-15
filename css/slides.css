@@ -5539,6 +5539,29 @@ body {
   fill: #55acee !important;
 }
 
+.social-mail {
+  background: #bf9107 !important;
+  color: #fff !important;
+}
+.social-mail svg {
+  fill: #fff !important;
+}
+
+.text-social-mail {
+  color: #bf9107 !important;
+}
+.text-social-mail.button svg {
+  fill: #bf9107 !important;
+}
+
+.stroke.button.social-mail {
+  color: #bf9107 !important;
+  border-color: #bf9107 !important;
+}
+.stroke.button.social-mail svg {
+  fill: #bf9107 !important;
+}
+
 .social-googlePlus {
   background: #DD4330 !important;
   color: #fff !important;
