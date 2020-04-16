@@ -15,28 +15,6 @@
   <!-- <script src="js/slides.min.js?41331" type="text/javascript"></script> -->
   <script src="js/slides.js?41331" type="text/javascript"></script>
   <script src="js/plugins.js?41331" type="text/javascript"></script>
-  <script>
-    var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.bottom = "0";
-  } else {
-    document.getElementById("navbar").style.bottom = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-  </script>
-  <style>
-    #navbar {
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: block;
-  transition: bottom 0.3s;
-}
-  </style>
 
   <title>劉承鑫建築事務所</title>
 </head>
@@ -301,7 +279,7 @@ var currentScrollPos = window.pageYOffset;
 
 
   <!-- social link -->
-  <nav id="navbar" class="panel bottom hideOnScroll">
+  <nav class="panel bottom hideOnScroll">
 
     <div class="sections">
       <div class="center">
