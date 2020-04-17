@@ -966,14 +966,14 @@ $(document).ready(function() { "use strict";
           i -= scrollSize;
           if (i <= sensitivity/5) {
             i = 0;
-            $panelToHide.removeClass('hide');
+            $panelToHide.removeClass('hide hidden');
           }
         }
         lastScrollTop = scrollTop;
 
         //show on top and bottom
         if ((scrollTop + window.windowHeight + sensitivity >= window.documentHeight) || (scrollTop + sensitivity <= 0)) {
-          $panelToHide.removeClass('hide');
+          $panelToHide.removeClass('hide hidden');
         }
       });
     }
