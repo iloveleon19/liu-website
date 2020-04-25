@@ -9428,7 +9428,7 @@ span.next-arrow svg {
   margin-left: 200px !important;
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1024px) {
   .padding-desktop-0 {
     padding: 0px !important;
   }

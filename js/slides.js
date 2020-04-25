@@ -285,6 +285,10 @@ $(document).ready(function() { "use strict";
     //reset
     $body.removeClass('sidebarShown lastSlide firstSlide hidePanel-top hidePanel-bottom');
 
+    if($('.panel.bottom.hideOnScroll.bottomInitHide').length > 0){
+      $body.addClass('hidePanel-bottom');
+    }
+
     //It it first or last stage?
     if (window.setStageClasses != 0) {
       if (window.stage === 1){
@@ -966,17 +970,54 @@ $(document).ready(function() { "use strict";
           i -= scrollSize;
           if (i <= sensitivity/5) {
             i = 0;
-            $panelToHide.removeClass('hide hidden');
+            $panelToHide.removeClass('hide');
           }
         }
         lastScrollTop = scrollTop;
 
         //show on top and bottom
         if ((scrollTop + window.windowHeight + sensitivity >= window.documentHeight) || (scrollTop + sensitivity <= 0)) {
-          $panelToHide.removeClass('hide hidden');
+          $panelToHide.removeClass('hide');
         }
       });
     }
+  }
+
+  //scroll on mobile
+  if (window.isMobile) {
+
+    var $currentSection = window.isScroll ? $(document) : $('.slide .content'),
+        currentSectionHeight = $currentSection.find('.container').outerHeight(),
+        lastScroll = 0,
+        scrollHeight = Math.max(
+          document.body.scrollHeight, document.documentElement.scrollHeight,
+          document.body.offsetHeight, document.documentElement.offsetHeight,
+          document.body.clientHeight, document.documentElement.clientHeight
+        ),
+        hidePanelTop = $('.panel.top.hideOnScroll'),
+        hidePanelBottom = $('.panel.bottom.hideOnScroll');
+
+    $currentSection.on('scroll', function(event){
+
+      if (window.inAction) return;
+
+      var $currentSection = $(this),
+          scrollTop = $(this).scrollTop(),
+          scrollDirection = (scrollTop > lastScroll) ? "down" : "up";
+
+      if (scrollDirection === "down" && $currentSection.scrollTop() > 0) {
+        if (hidePanelTop) $body.addClass('hidePanel-top');
+        if (hidePanelBottom) $body.addClass('hidePanel-bottom');
+      } else if (scrollDirection === "up"){
+        $body.removeClass('hidePanel-top hidePanel-bottom');
+
+        if($('.panel.bottom.hideOnScroll.bottomInitHide').length > 0){
+          $body.addClass('hidePanel-bottom');
+        }
+      }
+
+      lastScroll = scrollTop;
+    });
   }
 
 

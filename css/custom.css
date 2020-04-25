@@ -1,0 +1,35 @@
+@media (min-width: 1024px) {
+    .item-100.height-desktop-3 {
+        height: 40vh !important;
+    }
+    .item-100.height-desktop-1 {
+        height: 15vh !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .item-100.height-tablet-3 {
+        height: 40vh !important;
+    }
+    .item-100.height-tablet-1 {
+        height: 15vh !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .item-100.height-phablet-3 {
+        height: 40vh !important;
+    }
+    .item-100.height-phablet-1 {
+        height: 15vh !important;
+    }
+}
+
+@media (max-width: 435px) {
+    .item-100.height-phone-3 {
+        height: 40vh !important;
+    }
+    .item-100.height-phone-1 {
+        height: 15vh !important;
+    }
+}
