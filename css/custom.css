@@ -1,35 +1,2784 @@
-@media (min-width: 1024px) {
-    .item-100.height-desktop-3 {
+.item-100.height-40 {
+    height: 40vh;
+}
+.item-100.height-15 {
+    height: 15vh;
+}
+
+@media (min-width: 1240px) {
+    .item-100.height-desktop-40 {
         height: 40vh !important;
     }
-    .item-100.height-desktop-1 {
+    .item-100.height-desktop-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-desktop-15 {
         height: 15vh !important;
     }
 }
 
 @media (max-width: 1023px) {
-    .item-100.height-tablet-3 {
+    .item-100.height-tablet-40 {
         height: 40vh !important;
     }
-    .item-100.height-tablet-1 {
+    .item-100.height-tablet-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-tablet-15 {
         height: 15vh !important;
     }
 }
 
 @media (max-width: 767px) {
-    .item-100.height-phablet-3 {
+    .item-100.height-phablet-40 {
         height: 40vh !important;
     }
-    .item-100.height-phablet-1 {
+    .item-100.height-phablet-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-phablet-15 {
         height: 15vh !important;
     }
 }
 
 @media (max-width: 435px) {
-    .item-100.height-phone-3 {
+    .item-100.height-phone-40 {
         height: 40vh !important;
     }
-    .item-100.height-phone-1 {
+    .item-100.height-phone-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-phone-15 {
         height: 15vh !important;
     }
+}
+
+@media screen and (min-width: 1240px) and (orientation: landscape) {
+    .item-100.height-desktop-40 {
+        height: 40vh !important;
+    }
+    .item-100.height-desktop-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-desktop-15 {
+        height: 15vh !important;
+    }
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+    .item-100.height-tablet-landscape-40 {
+        height: 40vh !important;
+    }
+    .item-100.height-tablet-landscape-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-tablet-landscape-15 {
+        height: 15vh !important;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .item-100.height-phablet-landscape-40 {
+        height: 40vh !important;
+    }
+    .item-100.height-phablet-landscape-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-phablet-landscape-15 {
+        height: 15vh !important;
+    }
+}
+
+@media screen and (max-width: 435px) and (orientation: landscape) {
+    .item-100.height-phone-landscape-40 {
+        height: 40vh !important;
+    }
+    .item-100.height-phone-landscape-30 {
+        height: 30vh !important;
+    }
+    .item-100.height-phone-landscape-15 {
+        height: 15vh !important;
+    }
+}
+
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+    .grid > .col-tablet-landscape-1-1 {
+        max-width: 100% !important;
+    }
+
+    .grid > .col-tablet-landscape-1-2 {
+        max-width: 50% !important;
+    }
+
+    .grid > .col-tablet-landscape-1-3 {
+        max-width: 33.33333333% !important;
+    }
+
+    .grid > .col-tablet-landscape-2-3 {
+        max-width: 66.66666666% !important;
+    }
+
+    .grid > .col-tablet-landscape-1-4 {
+        max-width: 25% !important;
+    }
+
+    .grid > .col-tablet-landscape-3-4 {
+        max-width: 75% !important;
+    }
+
+    .grid > .col-tablet-landscape-1-5 {
+        max-width: 20% !important;
+    }
+
+    .grid > .col-tablet-landscape-2-5 {
+        max-width: 40% !important;
+    }
+
+    .grid > .col-tablet-landscape-3-5 {
+        max-width: 60% !important;
+    }
+
+    .grid > .col-tablet-landscape-4-5 {
+        max-width: 80% !important;
+    }
+
+    .flex > .col-tablet-landscape-1-1 {
+        width: 100% !important;
+    }
+
+    .flex > .col-tablet-landscape-1-2 {
+        width: 50% !important;
+    }
+
+    .flex > .col-tablet-landscape-1-3 {
+        width: 33.33333333% !important;
+    }
+
+    .flex > .col-tablet-landscape-2-3 {
+    width: 66.66666666% !important;
+    }
+
+    .flex > .col-tablet-landscape-1-4 {
+        width: 25% !important;
+    }
+
+    .flex > .col-tablet-landscape-3-4 {
+        width: 75% !important;
+    }
+
+    .flex > .col-tablet-landscape-1-5 {
+        width: 20% !important;
+    }
+
+    .flex > .col-tablet-landscape-2-5 {
+        width: 40% !important;
+    }
+
+    .flex > .col-tablet-landscape-3-5 {
+        width: 60% !important;
+    }
+
+    .flex > .col-tablet-landscape-4-5 {
+        width: 80% !important;
+    }
+
+      .padding-tablet-0 {
+        padding: 0px !important;
+      }
+    
+      .padding-tablet-landscape-1 {
+        padding: 10px !important;
+      }
+    
+      .padding-tablet-landscape-2 {
+        padding: 20px !important;
+      }
+    
+      .padding-tablet-landscape-3 {
+        padding: 30px !important;
+      }
+    
+      .padding-tablet-landscape-4 {
+        padding: 40px !important;
+      }
+    
+      .padding-tablet-landscape-5 {
+        padding: 50px !important;
+      }
+    
+      .padding-tablet-landscape-6 {
+        padding: 60px !important;
+      }
+    
+      .padding-tablet-landscape-7 {
+        padding: 70px !important;
+      }
+    
+      .padding-tablet-landscape-8 {
+        padding: 80px !important;
+      }
+    
+      .padding-tablet-landscape-9 {
+        padding: 90px !important;
+      }
+    
+      .padding-tablet-landscape-10 {
+        padding: 100px !important;
+      }
+    
+      .padding-tablet-landscape-11 {
+        padding: 110px !important;
+      }
+    
+      .padding-tablet-landscape-12 {
+        padding: 120px !important;
+      }
+    
+      .padding-tablet-landscape-13 {
+        padding: 130px !important;
+      }
+    
+      .padding-tablet-landscape-14 {
+        padding: 140px !important;
+      }
+    
+      .padding-tablet-landscape-15 {
+        padding: 150px !important;
+      }
+    
+      .padding-tablet-landscape-16 {
+        padding: 160px !important;
+      }
+    
+      .padding-tablet-landscape-17 {
+        padding: 170px !important;
+      }
+    
+      .padding-tablet-landscape-18 {
+        padding: 180px !important;
+      }
+    
+      .padding-tablet-landscape-19 {
+        padding: 190px !important;
+      }
+    
+      .padding-tablet-landscape-20 {
+        padding: 200px !important;
+      }
+    
+      .padding-top-tablet-landscape-0 {
+        padding-top: 0px !important;
+      }
+    
+      .padding-top-tablet-landscape-1 {
+        padding-top: 10px !important;
+      }
+    
+      .padding-top-tablet-landscape-2 {
+        padding-top: 20px !important;
+      }
+    
+      .padding-top-tablet-landscape-3 {
+        padding-top: 30px !important;
+      }
+    
+      .padding-top-tablet-landscape-4 {
+        padding-top: 40px !important;
+      }
+    
+      .padding-top-tablet-landscape-5 {
+        padding-top: 50px !important;
+      }
+    
+      .padding-top-tablet-landscape-6 {
+        padding-top: 60px !important;
+      }
+    
+      .padding-top-tablet-landscape-7 {
+        padding-top: 70px !important;
+      }
+    
+      .padding-top-tablet-landscape-8 {
+        padding-top: 80px !important;
+      }
+    
+      .padding-top-tablet-landscape-9 {
+        padding-top: 90px !important;
+      }
+    
+      .padding-top-tablet-landscape-10 {
+        padding-top: 100px !important;
+      }
+    
+      .padding-top-tablet-landscape-11 {
+        padding-top: 110px !important;
+      }
+    
+      .padding-top-tablet-landscape-12 {
+        padding-top: 120px !important;
+      }
+    
+      .padding-top-tablet-landscape-13 {
+        padding-top: 130px !important;
+      }
+    
+      .padding-top-tablet-landscape-14 {
+        padding-top: 140px !important;
+      }
+    
+      .padding-top-tablet-landscape-15 {
+        padding-top: 150px !important;
+      }
+    
+      .padding-top-tablet-landscape-16 {
+        padding-top: 160px !important;
+      }
+    
+      .padding-top-tablet-landscape-17 {
+        padding-top: 170px !important;
+      }
+    
+      .padding-top-tablet-landscape-18 {
+        padding-top: 180px !important;
+      }
+    
+      .padding-top-tablet-landscape-19 {
+        padding-top: 190px !important;
+      }
+    
+      .padding-top-tablet-landscape-20 {
+        padding-top: 200px !important;
+      }
+    
+      .padding-right-tablet-landscape-0 {
+        padding-right: 0px !important;
+      }
+    
+      .padding-right-tablet-landscape-1 {
+        padding-right: 10px !important;
+      }
+    
+      .padding-right-tablet-landscape-2 {
+        padding-right: 20px !important;
+      }
+    
+      .padding-right-tablet-landscape-3 {
+        padding-right: 30px !important;
+      }
+    
+      .padding-right-tablet-landscape-4 {
+        padding-right: 40px !important;
+      }
+    
+      .padding-right-tablet-landscape-5 {
+        padding-right: 50px !important;
+      }
+    
+      .padding-right-tablet-landscape-6 {
+        padding-right: 60px !important;
+      }
+    
+      .padding-right-tablet-landscape-7 {
+        padding-right: 70px !important;
+      }
+    
+      .padding-right-tablet-landscape-8 {
+        padding-right: 80px !important;
+      }
+    
+      .padding-right-tablet-landscape-9 {
+        padding-right: 90px !important;
+      }
+    
+      .padding-right-tablet-landscape-10 {
+        padding-right: 100px !important;
+      }
+    
+      .padding-right-tablet-landscape-11 {
+        padding-right: 110px !important;
+      }
+    
+      .padding-right-tablet-landscape-12 {
+        padding-right: 120px !important;
+      }
+    
+      .padding-right-tablet-landscape-13 {
+        padding-right: 130px !important;
+      }
+    
+      .padding-right-tablet-landscape-14 {
+        padding-right: 140px !important;
+      }
+    
+      .padding-right-tablet-landscape-15 {
+        padding-right: 150px !important;
+      }
+    
+      .padding-right-tablet-landscape-16 {
+        padding-right: 160px !important;
+      }
+    
+      .padding-right-tablet-landscape-17 {
+        padding-right: 170px !important;
+      }
+    
+      .padding-right-tablet-landscape-18 {
+        padding-right: 180px !important;
+      }
+    
+      .padding-right-tablet-landscape-19 {
+        padding-right: 190px !important;
+      }
+    
+      .padding-right-tablet-landscape-20 {
+        padding-right: 200px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-0 {
+        padding-bottom: 0px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-1 {
+        padding-bottom: 10px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-2 {
+        padding-bottom: 20px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-3 {
+        padding-bottom: 30px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-4 {
+        padding-bottom: 40px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-5 {
+        padding-bottom: 50px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-6 {
+        padding-bottom: 60px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-7 {
+        padding-bottom: 70px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-8 {
+        padding-bottom: 80px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-9 {
+        padding-bottom: 90px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-10 {
+        padding-bottom: 100px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-11 {
+        padding-bottom: 110px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-12 {
+        padding-bottom: 120px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-13 {
+        padding-bottom: 130px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-14 {
+        padding-bottom: 140px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-15 {
+        padding-bottom: 150px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-16 {
+        padding-bottom: 160px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-17 {
+        padding-bottom: 170px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-18 {
+        padding-bottom: 180px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-19 {
+        padding-bottom: 190px !important;
+      }
+    
+      .padding-bottom-tablet-landscape-20 {
+        padding-bottom: 200px !important;
+      }
+    
+      .padding-left-tablet-landscape-0 {
+        padding-left: 0px !important;
+      }
+    
+      .padding-left-tablet-landscape-1 {
+        padding-left: 10px !important;
+      }
+    
+      .padding-left-tablet-landscape-2 {
+        padding-left: 20px !important;
+      }
+    
+      .padding-left-tablet-landscape-3 {
+        padding-left: 30px !important;
+      }
+    
+      .padding-left-tablet-landscape-4 {
+        padding-left: 40px !important;
+      }
+    
+      .padding-left-tablet-landscape-5 {
+        padding-left: 50px !important;
+      }
+    
+      .padding-left-tablet-landscape-6 {
+        padding-left: 60px !important;
+      }
+    
+      .padding-left-tablet-landscape-7 {
+        padding-left: 70px !important;
+      }
+    
+      .padding-left-tablet-landscape-8 {
+        padding-left: 80px !important;
+      }
+    
+      .padding-left-tablet-landscape-9 {
+        padding-left: 90px !important;
+      }
+    
+      .padding-left-tablet-landscape-10 {
+        padding-left: 100px !important;
+      }
+    
+      .padding-left-tablet-landscape-11 {
+        padding-left: 110px !important;
+      }
+    
+      .padding-left-tablet-landscape-12 {
+        padding-left: 120px !important;
+      }
+    
+      .padding-left-tablet-landscape-13 {
+        padding-left: 130px !important;
+      }
+    
+      .padding-left-tablet-landscape-14 {
+        padding-left: 140px !important;
+      }
+    
+      .padding-left-tablet-landscape-15 {
+        padding-left: 150px !important;
+      }
+    
+      .padding-left-tablet-landscape-16 {
+        padding-left: 160px !important;
+      }
+    
+      .padding-left-tablet-landscape-17 {
+        padding-left: 170px !important;
+      }
+    
+      .padding-left-tablet-landscape-18 {
+        padding-left: 180px !important;
+      }
+    
+      .padding-left-tablet-landscape-19 {
+        padding-left: 190px !important;
+      }
+    
+      .padding-left-tablet-landscape-20 {
+        padding-left: 200px !important;
+      }
+    
+      .margin-tablet-landscape-0 {
+        margin: 0px !important;
+      }
+    
+      .margin-tablet-landscape-1 {
+        margin: 10px !important;
+      }
+    
+      .margin-tablet-landscape-2 {
+        margin: 20px !important;
+      }
+    
+      .margin-tablet-landscape-3 {
+        margin: 30px !important;
+      }
+    
+      .margin-tablet-landscape-4 {
+        margin: 40px !important;
+      }
+    
+      .margin-tablet-landscape-5 {
+        margin: 50px !important;
+      }
+    
+      .margin-tablet-landscape-6 {
+        margin: 60px !important;
+      }
+    
+      .margin-tablet-landscape-7 {
+        margin: 70px !important;
+      }
+    
+      .margin-tablet-landscape-8 {
+        margin: 80px !important;
+      }
+    
+      .margin-tablet-landscape-9 {
+        margin: 90px !important;
+      }
+    
+      .margin-tablet-landscape-10 {
+        margin: 100px !important;
+      }
+    
+      .margin-tablet-landscape-11 {
+        margin: 110px !important;
+      }
+    
+      .margin-tablet-landscape-12 {
+        margin: 120px !important;
+      }
+    
+      .margin-tablet-landscape-13 {
+        margin: 130px !important;
+      }
+    
+      .margin-tablet-landscape-14 {
+        margin: 140px !important;
+      }
+    
+      .margin-tablet-landscape-15 {
+        margin: 150px !important;
+      }
+    
+      .margin-tablet-landscape-16 {
+        margin: 160px !important;
+      }
+    
+      .margin-tablet-landscape-17 {
+        margin: 170px !important;
+      }
+    
+      .margin-tablet-landscape-18 {
+        margin: 180px !important;
+      }
+    
+      .margin-tablet-landscape-19 {
+        margin: 190px !important;
+      }
+    
+      .margin-tablet-landscape-20 {
+        margin: 200px !important;
+      }
+    
+      .margin-top-tablet-landscape-0 {
+        margin-top: 0px !important;
+      }
+    
+      .margin-top-tablet-landscape-1 {
+        margin-top: 10px !important;
+      }
+    
+      .margin-top-tablet-landscape-2 {
+        margin-top: 20px !important;
+      }
+    
+      .margin-top-tablet-landscape-3 {
+        margin-top: 30px !important;
+      }
+    
+      .margin-top-tablet-landscape-4 {
+        margin-top: 40px !important;
+      }
+    
+      .margin-top-tablet-landscape-5 {
+        margin-top: 50px !important;
+      }
+    
+      .margin-top-tablet-landscape-6 {
+        margin-top: 60px !important;
+      }
+    
+      .margin-top-tablet-landscape-7 {
+        margin-top: 70px !important;
+      }
+    
+      .margin-top-tablet-landscape-8 {
+        margin-top: 80px !important;
+      }
+    
+      .margin-top-tablet-landscape-9 {
+        margin-top: 90px !important;
+      }
+    
+      .margin-top-tablet-landscape-10 {
+        margin-top: 100px !important;
+      }
+    
+      .margin-top-tablet-landscape-11 {
+        margin-top: 110px !important;
+      }
+    
+      .margin-top-tablet-landscape-12 {
+        margin-top: 120px !important;
+      }
+    
+      .margin-top-tablet-landscape-13 {
+        margin-top: 130px !important;
+      }
+    
+      .margin-top-tablet-landscape-14 {
+        margin-top: 140px !important;
+      }
+    
+      .margin-top-tablet-landscape-15 {
+        margin-top: 150px !important;
+      }
+    
+      .margin-top-tablet-landscape-16 {
+        margin-top: 160px !important;
+      }
+    
+      .margin-top-tablet-landscape-17 {
+        margin-top: 170px !important;
+      }
+    
+      .margin-top-tablet-landscape-18 {
+        margin-top: 180px !important;
+      }
+    
+      .margin-top-tablet-landscape-19 {
+        margin-top: 190px !important;
+      }
+    
+      .margin-top-tablet-landscape-20 {
+        margin-top: 200px !important;
+      }
+    
+      .margin-right-tablet-landscape-0 {
+        margin-right: 0px !important;
+      }
+    
+      .margin-right-tablet-landscape-1 {
+        margin-right: 10px !important;
+      }
+    
+      .margin-right-tablet-landscape-2 {
+        margin-right: 20px !important;
+      }
+    
+      .margin-right-tablet-landscape-3 {
+        margin-right: 30px !important;
+      }
+    
+      .margin-right-tablet-landscape-4 {
+        margin-right: 40px !important;
+      }
+    
+      .margin-right-tablet-landscape-5 {
+        margin-right: 50px !important;
+      }
+    
+      .margin-right-tablet-landscape-6 {
+        margin-right: 60px !important;
+      }
+    
+      .margin-right-tablet-landscape-7 {
+        margin-right: 70px !important;
+      }
+    
+      .margin-right-tablet-landscape-8 {
+        margin-right: 80px !important;
+      }
+    
+      .margin-right-tablet-landscape-9 {
+        margin-right: 90px !important;
+      }
+    
+      .margin-right-tablet-landscape-10 {
+        margin-right: 100px !important;
+      }
+    
+      .margin-right-tablet-landscape-11 {
+        margin-right: 110px !important;
+      }
+    
+      .margin-right-tablet-landscape-12 {
+        margin-right: 120px !important;
+      }
+    
+      .margin-right-tablet-landscape-13 {
+        margin-right: 130px !important;
+      }
+    
+      .margin-right-tablet-landscape-14 {
+        margin-right: 140px !important;
+      }
+    
+      .margin-right-tablet-landscape-15 {
+        margin-right: 150px !important;
+      }
+    
+      .margin-right-tablet-landscape-16 {
+        margin-right: 160px !important;
+      }
+    
+      .margin-right-tablet-landscape-17 {
+        margin-right: 170px !important;
+      }
+    
+      .margin-right-tablet-landscape-18 {
+        margin-right: 180px !important;
+      }
+    
+      .margin-right-tablet-landscape-19 {
+        margin-right: 190px !important;
+      }
+    
+      .margin-right-tablet-landscape-20 {
+        margin-right: 200px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-0 {
+        margin-bottom: 0px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-1 {
+        margin-bottom: 10px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-2 {
+        margin-bottom: 20px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-3 {
+        margin-bottom: 30px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-4 {
+        margin-bottom: 40px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-5 {
+        margin-bottom: 50px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-6 {
+        margin-bottom: 60px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-7 {
+        margin-bottom: 70px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-8 {
+        margin-bottom: 80px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-9 {
+        margin-bottom: 90px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-10 {
+        margin-bottom: 100px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-11 {
+        margin-bottom: 110px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-12 {
+        margin-bottom: 120px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-13 {
+        margin-bottom: 130px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-14 {
+        margin-bottom: 140px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-15 {
+        margin-bottom: 150px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-16 {
+        margin-bottom: 160px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-17 {
+        margin-bottom: 170px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-18 {
+        margin-bottom: 180px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-19 {
+        margin-bottom: 190px !important;
+      }
+    
+      .margin-bottom-tablet-landscape-20 {
+        margin-bottom: 200px !important;
+      }
+    
+      .margin-left-tablet-landscape-0 {
+        margin-left: 0px !important;
+      }
+    
+      .margin-left-tablet-landscape-1 {
+        margin-left: 10px !important;
+      }
+    
+      .margin-left-tablet-landscape-2 {
+        margin-left: 20px !important;
+      }
+    
+      .margin-left-tablet-landscape-3 {
+        margin-left: 30px !important;
+      }
+    
+      .margin-left-tablet-landscape-4 {
+        margin-left: 40px !important;
+      }
+    
+      .margin-left-tablet-landscape-5 {
+        margin-left: 50px !important;
+      }
+    
+      .margin-left-tablet-landscape-6 {
+        margin-left: 60px !important;
+      }
+    
+      .margin-left-tablet-landscape-7 {
+        margin-left: 70px !important;
+      }
+    
+      .margin-left-tablet-landscape-8 {
+        margin-left: 80px !important;
+      }
+    
+      .margin-left-tablet-landscape-9 {
+        margin-left: 90px !important;
+      }
+    
+      .margin-left-tablet-landscape-10 {
+        margin-left: 100px !important;
+      }
+    
+      .margin-left-tablet-landscape-11 {
+        margin-left: 110px !important;
+      }
+    
+      .margin-left-tablet-landscape-12 {
+        margin-left: 120px !important;
+      }
+    
+      .margin-left-tablet-landscape-13 {
+        margin-left: 130px !important;
+      }
+    
+      .margin-left-tablet-landscape-14 {
+        margin-left: 140px !important;
+      }
+    
+      .margin-left-tablet-landscape-15 {
+        margin-left: 150px !important;
+      }
+    
+      .margin-left-tablet-landscape-16 {
+        margin-left: 160px !important;
+      }
+    
+      .margin-left-tablet-landscape-17 {
+        margin-left: 170px !important;
+      }
+    
+      .margin-left-tablet-landscape-18 {
+        margin-left: 180px !important;
+      }
+    
+      .margin-left-tablet-landscape-19 {
+        margin-left: 190px !important;
+      }
+    
+      .margin-left-tablet-landscape-20 {
+        margin-left: 200px !important;
+      }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .grid > .col-phablet-landscape-1-1 {
+        max-width: 100% !important;
+    }
+
+    .grid > .col-phablet-landscape-1-2 {
+        max-width: 50% !important;
+    }
+
+    .grid > .col-phablet-landscape-1-3 {
+        max-width: 33.33333333% !important;
+    }
+
+    .grid > .col-phablet-landscape-1-4 {
+        max-width: 25% !important;
+    }
+
+    .grid > .col-phablet-landscape-3-4 {
+        max-width: 75% !important;
+    }
+
+    .flex > .col-phablet-landscape-1-1 {
+        width: 100% !important;
+    }
+
+    .flex > .col-phablet-landscape-1-2 {
+        width: 50% !important;
+    }
+
+    .flex > .col-phablet-landscape-1-3 {
+        width: 33.33333333% !important;
+    }
+
+    .flex > .col-phablet-landscape-2-3 {
+        width: 66.66666666% !important;
+    }
+
+    .flex > .col-phablet-landscape-1-4 {
+        width: 25% !important;
+    }
+
+    .flex > .col-phablet-landscape-3-4 {
+        width: 75% !important;
+    }
+
+      .padding-phablet-landscape-0 {
+        padding: 0px !important;
+      }
+    
+      .padding-phablet-landscape-1 {
+        padding: 10px !important;
+      }
+    
+      .padding-phablet-landscape-2 {
+        padding: 20px !important;
+      }
+    
+      .padding-phablet-landscape-3 {
+        padding: 30px !important;
+      }
+    
+      .padding-phablet-landscape-4 {
+        padding: 40px !important;
+      }
+    
+      .padding-phablet-landscape-5 {
+        padding: 50px !important;
+      }
+    
+      .padding-phablet-landscape-6 {
+        padding: 60px !important;
+      }
+    
+      .padding-phablet-landscape-7 {
+        padding: 70px !important;
+      }
+    
+      .padding-phablet-landscape-8 {
+        padding: 80px !important;
+      }
+    
+      .padding-phablet-landscape-9 {
+        padding: 90px !important;
+      }
+    
+      .padding-phablet-landscape-10 {
+        padding: 100px !important;
+      }
+    
+      .padding-phablet-landscape-11 {
+        padding: 110px !important;
+      }
+    
+      .padding-phablet-landscape-12 {
+        padding: 120px !important;
+      }
+    
+      .padding-phablet-landscape-13 {
+        padding: 130px !important;
+      }
+    
+      .padding-phablet-landscape-14 {
+        padding: 140px !important;
+      }
+    
+      .padding-phablet-landscape-15 {
+        padding: 150px !important;
+      }
+    
+      .padding-phablet-landscape-16 {
+        padding: 160px !important;
+      }
+    
+      .padding-phablet-landscape-17 {
+        padding: 170px !important;
+      }
+    
+      .padding-phablet-landscape-18 {
+        padding: 180px !important;
+      }
+    
+      .padding-phablet-landscape-19 {
+        padding: 190px !important;
+      }
+    
+      .padding-phablet-landscape-20 {
+        padding: 200px !important;
+      }
+    
+      .padding-top-phablet-landscape-0 {
+        padding-top: 0px !important;
+      }
+    
+      .padding-top-phablet-landscape-1 {
+        padding-top: 10px !important;
+      }
+    
+      .padding-top-phablet-landscape-2 {
+        padding-top: 20px !important;
+      }
+    
+      .padding-top-phablet-landscape-3 {
+        padding-top: 30px !important;
+      }
+    
+      .padding-top-phablet-landscape-4 {
+        padding-top: 40px !important;
+      }
+    
+      .padding-top-phablet-landscape-5 {
+        padding-top: 50px !important;
+      }
+    
+      .padding-top-phablet-landscape-6 {
+        padding-top: 60px !important;
+      }
+    
+      .padding-top-phablet-landscape-7 {
+        padding-top: 70px !important;
+      }
+    
+      .padding-top-phablet-landscape-8 {
+        padding-top: 80px !important;
+      }
+    
+      .padding-top-phablet-landscape-9 {
+        padding-top: 90px !important;
+      }
+    
+      .padding-top-phablet-landscape-10 {
+        padding-top: 100px !important;
+      }
+    
+      .padding-top-phablet-landscape-11 {
+        padding-top: 110px !important;
+      }
+    
+      .padding-top-phablet-landscape-12 {
+        padding-top: 120px !important;
+      }
+    
+      .padding-top-phablet-landscape-13 {
+        padding-top: 130px !important;
+      }
+    
+      .padding-top-phablet-landscape-14 {
+        padding-top: 140px !important;
+      }
+    
+      .padding-top-phablet-landscape-15 {
+        padding-top: 150px !important;
+      }
+    
+      .padding-top-phablet-landscape-16 {
+        padding-top: 160px !important;
+      }
+    
+      .padding-top-phablet-landscape-17 {
+        padding-top: 170px !important;
+      }
+    
+      .padding-top-phablet-landscape-18 {
+        padding-top: 180px !important;
+      }
+    
+      .padding-top-phablet-landscape-19 {
+        padding-top: 190px !important;
+      }
+    
+      .padding-top-phablet-landscape-20 {
+        padding-top: 200px !important;
+      }
+    
+      .padding-right-phablet-landscape-0 {
+        padding-right: 0px !important;
+      }
+    
+      .padding-right-phablet-landscape-1 {
+        padding-right: 10px !important;
+      }
+    
+      .padding-right-phablet-landscape-2 {
+        padding-right: 20px !important;
+      }
+    
+      .padding-right-phablet-landscape-3 {
+        padding-right: 30px !important;
+      }
+    
+      .padding-right-phablet-landscape-4 {
+        padding-right: 40px !important;
+      }
+    
+      .padding-right-phablet-landscape-5 {
+        padding-right: 50px !important;
+      }
+    
+      .padding-right-phablet-landscape-6 {
+        padding-right: 60px !important;
+      }
+    
+      .padding-right-phablet-landscape-7 {
+        padding-right: 70px !important;
+      }
+    
+      .padding-right-phablet-landscape-8 {
+        padding-right: 80px !important;
+      }
+    
+      .padding-right-phablet-landscape-9 {
+        padding-right: 90px !important;
+      }
+    
+      .padding-right-phablet-landscape-10 {
+        padding-right: 100px !important;
+      }
+    
+      .padding-right-phablet-landscape-11 {
+        padding-right: 110px !important;
+      }
+    
+      .padding-right-phablet-landscape-12 {
+        padding-right: 120px !important;
+      }
+    
+      .padding-right-phablet-landscape-13 {
+        padding-right: 130px !important;
+      }
+    
+      .padding-right-phablet-landscape-14 {
+        padding-right: 140px !important;
+      }
+    
+      .padding-right-phablet-landscape-15 {
+        padding-right: 150px !important;
+      }
+    
+      .padding-right-phablet-landscape-16 {
+        padding-right: 160px !important;
+      }
+    
+      .padding-right-phablet-landscape-17 {
+        padding-right: 170px !important;
+      }
+    
+      .padding-right-phablet-landscape-18 {
+        padding-right: 180px !important;
+      }
+    
+      .padding-right-phablet-landscape-19 {
+        padding-right: 190px !important;
+      }
+    
+      .padding-right-phablet-landscape-20 {
+        padding-right: 200px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-0 {
+        padding-bottom: 0px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-1 {
+        padding-bottom: 10px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-2 {
+        padding-bottom: 20px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-3 {
+        padding-bottom: 30px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-4 {
+        padding-bottom: 40px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-5 {
+        padding-bottom: 50px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-6 {
+        padding-bottom: 60px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-7 {
+        padding-bottom: 70px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-8 {
+        padding-bottom: 80px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-9 {
+        padding-bottom: 90px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-10 {
+        padding-bottom: 100px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-11 {
+        padding-bottom: 110px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-12 {
+        padding-bottom: 120px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-13 {
+        padding-bottom: 130px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-14 {
+        padding-bottom: 140px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-15 {
+        padding-bottom: 150px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-16 {
+        padding-bottom: 160px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-17 {
+        padding-bottom: 170px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-18 {
+        padding-bottom: 180px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-19 {
+        padding-bottom: 190px !important;
+      }
+    
+      .padding-bottom-phablet-landscape-20 {
+        padding-bottom: 200px !important;
+      }
+    
+      .padding-left-phablet-landscape-0 {
+        padding-left: 0px !important;
+      }
+    
+      .padding-left-phablet-landscape-1 {
+        padding-left: 10px !important;
+      }
+    
+      .padding-left-phablet-landscape-2 {
+        padding-left: 20px !important;
+      }
+    
+      .padding-left-phablet-landscape-3 {
+        padding-left: 30px !important;
+      }
+    
+      .padding-left-phablet-landscape-4 {
+        padding-left: 40px !important;
+      }
+    
+      .padding-left-phablet-landscape-5 {
+        padding-left: 50px !important;
+      }
+    
+      .padding-left-phablet-landscape-6 {
+        padding-left: 60px !important;
+      }
+    
+      .padding-left-phablet-landscape-7 {
+        padding-left: 70px !important;
+      }
+    
+      .padding-left-phablet-landscape-8 {
+        padding-left: 80px !important;
+      }
+    
+      .padding-left-phablet-landscape-9 {
+        padding-left: 90px !important;
+      }
+    
+      .padding-left-phablet-landscape-10 {
+        padding-left: 100px !important;
+      }
+    
+      .padding-left-phablet-landscape-11 {
+        padding-left: 110px !important;
+      }
+    
+      .padding-left-phablet-landscape-12 {
+        padding-left: 120px !important;
+      }
+    
+      .padding-left-phablet-landscape-13 {
+        padding-left: 130px !important;
+      }
+    
+      .padding-left-phablet-landscape-14 {
+        padding-left: 140px !important;
+      }
+    
+      .padding-left-phablet-landscape-15 {
+        padding-left: 150px !important;
+      }
+    
+      .padding-left-phablet-landscape-16 {
+        padding-left: 160px !important;
+      }
+    
+      .padding-left-phablet-landscape-17 {
+        padding-left: 170px !important;
+      }
+    
+      .padding-left-phablet-landscape-18 {
+        padding-left: 180px !important;
+      }
+    
+      .padding-left-phablet-landscape-19 {
+        padding-left: 190px !important;
+      }
+    
+      .padding-left-phablet-landscape-20 {
+        padding-left: 200px !important;
+      }
+    
+      .margin-phablet-landscape-0 {
+        margin: 0px !important;
+      }
+    
+      .margin-phablet-landscape-1 {
+        margin: 10px !important;
+      }
+    
+      .margin-phablet-landscape-2 {
+        margin: 20px !important;
+      }
+    
+      .margin-phablet-landscape-3 {
+        margin: 30px !important;
+      }
+    
+      .margin-phablet-landscape-4 {
+        margin: 40px !important;
+      }
+    
+      .margin-phablet-landscape-5 {
+        margin: 50px !important;
+      }
+    
+      .margin-phablet-landscape-6 {
+        margin: 60px !important;
+      }
+    
+      .margin-phablet-landscape-7 {
+        margin: 70px !important;
+      }
+    
+      .margin-phablet-landscape-8 {
+        margin: 80px !important;
+      }
+    
+      .margin-phablet-landscape-9 {
+        margin: 90px !important;
+      }
+    
+      .margin-phablet-landscape-10 {
+        margin: 100px !important;
+      }
+    
+      .margin-phablet-landscape-11 {
+        margin: 110px !important;
+      }
+    
+      .margin-phablet-landscape-12 {
+        margin: 120px !important;
+      }
+    
+      .margin-phablet-landscape-13 {
+        margin: 130px !important;
+      }
+    
+      .margin-phablet-landscape-14 {
+        margin: 140px !important;
+      }
+    
+      .margin-phablet-landscape-15 {
+        margin: 150px !important;
+      }
+    
+      .margin-phablet-landscape-16 {
+        margin: 160px !important;
+      }
+    
+      .margin-phablet-landscape-17 {
+        margin: 170px !important;
+      }
+    
+      .margin-phablet-landscape-18 {
+        margin: 180px !important;
+      }
+    
+      .margin-phablet-landscape-19 {
+        margin: 190px !important;
+      }
+    
+      .margin-phablet-landscape-20 {
+        margin: 200px !important;
+      }
+    
+      .margin-top-phablet-landscape-0 {
+        margin-top: 0px !important;
+      }
+    
+      .margin-top-phablet-landscape-1 {
+        margin-top: 10px !important;
+      }
+    
+      .margin-top-phablet-landscape-2 {
+        margin-top: 20px !important;
+      }
+    
+      .margin-top-phablet-landscape-3 {
+        margin-top: 30px !important;
+      }
+    
+      .margin-top-phablet-landscape-4 {
+        margin-top: 40px !important;
+      }
+    
+      .margin-top-phablet-landscape-5 {
+        margin-top: 50px !important;
+      }
+    
+      .margin-top-phablet-landscape-6 {
+        margin-top: 60px !important;
+      }
+    
+      .margin-top-phablet-landscape-7 {
+        margin-top: 70px !important;
+      }
+    
+      .margin-top-phablet-landscape-8 {
+        margin-top: 80px !important;
+      }
+    
+      .margin-top-phablet-landscape-9 {
+        margin-top: 90px !important;
+      }
+    
+      .margin-top-phablet-landscape-10 {
+        margin-top: 100px !important;
+      }
+    
+      .margin-top-phablet-landscape-11 {
+        margin-top: 110px !important;
+      }
+    
+      .margin-top-phablet-landscape-12 {
+        margin-top: 120px !important;
+      }
+    
+      .margin-top-phablet-landscape-13 {
+        margin-top: 130px !important;
+      }
+    
+      .margin-top-phablet-landscape-14 {
+        margin-top: 140px !important;
+      }
+    
+      .margin-top-phablet-landscape-15 {
+        margin-top: 150px !important;
+      }
+    
+      .margin-top-phablet-landscape-16 {
+        margin-top: 160px !important;
+      }
+    
+      .margin-top-phablet-landscape-17 {
+        margin-top: 170px !important;
+      }
+    
+      .margin-top-phablet-landscape-18 {
+        margin-top: 180px !important;
+      }
+    
+      .margin-top-phablet-landscape-19 {
+        margin-top: 190px !important;
+      }
+    
+      .margin-top-phablet-landscape-20 {
+        margin-top: 200px !important;
+      }
+    
+      .margin-right-phablet-landscape-0 {
+        margin-right: 0px !important;
+      }
+    
+      .margin-right-phablet-landscape-1 {
+        margin-right: 10px !important;
+      }
+    
+      .margin-right-phablet-landscape-2 {
+        margin-right: 20px !important;
+      }
+    
+      .margin-right-phablet-landscape-3 {
+        margin-right: 30px !important;
+      }
+    
+      .margin-right-phablet-landscape-4 {
+        margin-right: 40px !important;
+      }
+    
+      .margin-right-phablet-landscape-5 {
+        margin-right: 50px !important;
+      }
+    
+      .margin-right-phablet-landscape-6 {
+        margin-right: 60px !important;
+      }
+    
+      .margin-right-phablet-landscape-7 {
+        margin-right: 70px !important;
+      }
+    
+      .margin-right-phablet-landscape-8 {
+        margin-right: 80px !important;
+      }
+    
+      .margin-right-phablet-landscape-9 {
+        margin-right: 90px !important;
+      }
+    
+      .margin-right-phablet-landscape-10 {
+        margin-right: 100px !important;
+      }
+    
+      .margin-right-phablet-landscape-11 {
+        margin-right: 110px !important;
+      }
+    
+      .margin-right-phablet-landscape-12 {
+        margin-right: 120px !important;
+      }
+    
+      .margin-right-phablet-landscape-13 {
+        margin-right: 130px !important;
+      }
+    
+      .margin-right-phablet-landscape-14 {
+        margin-right: 140px !important;
+      }
+    
+      .margin-right-phablet-landscape-15 {
+        margin-right: 150px !important;
+      }
+    
+      .margin-right-phablet-landscape-16 {
+        margin-right: 160px !important;
+      }
+    
+      .margin-right-phablet-landscape-17 {
+        margin-right: 170px !important;
+      }
+    
+      .margin-right-phablet-landscape-18 {
+        margin-right: 180px !important;
+      }
+    
+      .margin-right-phablet-landscape-19 {
+        margin-right: 190px !important;
+      }
+    
+      .margin-right-phablet-landscape-20 {
+        margin-right: 200px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-0 {
+        margin-bottom: 0px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-1 {
+        margin-bottom: 10px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-2 {
+        margin-bottom: 20px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-3 {
+        margin-bottom: 30px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-4 {
+        margin-bottom: 40px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-5 {
+        margin-bottom: 50px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-6 {
+        margin-bottom: 60px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-7 {
+        margin-bottom: 70px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-8 {
+        margin-bottom: 80px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-9 {
+        margin-bottom: 90px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-10 {
+        margin-bottom: 100px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-11 {
+        margin-bottom: 110px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-12 {
+        margin-bottom: 120px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-13 {
+        margin-bottom: 130px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-14 {
+        margin-bottom: 140px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-15 {
+        margin-bottom: 150px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-16 {
+        margin-bottom: 160px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-17 {
+        margin-bottom: 170px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-18 {
+        margin-bottom: 180px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-19 {
+        margin-bottom: 190px !important;
+      }
+    
+      .margin-bottom-phablet-landscape-20 {
+        margin-bottom: 200px !important;
+      }
+    
+      .margin-left-phablet-landscape-0 {
+        margin-left: 0px !important;
+      }
+    
+      .margin-left-phablet-landscape-1 {
+        margin-left: 10px !important;
+      }
+    
+      .margin-left-phablet-landscape-2 {
+        margin-left: 20px !important;
+      }
+    
+      .margin-left-phablet-landscape-3 {
+        margin-left: 30px !important;
+      }
+    
+      .margin-left-phablet-landscape-4 {
+        margin-left: 40px !important;
+      }
+    
+      .margin-left-phablet-landscape-5 {
+        margin-left: 50px !important;
+      }
+    
+      .margin-left-phablet-landscape-6 {
+        margin-left: 60px !important;
+      }
+    
+      .margin-left-phablet-landscape-7 {
+        margin-left: 70px !important;
+      }
+    
+      .margin-left-phablet-landscape-8 {
+        margin-left: 80px !important;
+      }
+    
+      .margin-left-phablet-landscape-9 {
+        margin-left: 90px !important;
+      }
+    
+      .margin-left-phablet-landscape-10 {
+        margin-left: 100px !important;
+      }
+    
+      .margin-left-phablet-landscape-11 {
+        margin-left: 110px !important;
+      }
+    
+      .margin-left-phablet-landscape-12 {
+        margin-left: 120px !important;
+      }
+    
+      .margin-left-phablet-landscape-13 {
+        margin-left: 130px !important;
+      }
+    
+      .margin-left-phablet-landscape-14 {
+        margin-left: 140px !important;
+      }
+    
+      .margin-left-phablet-landscape-15 {
+        margin-left: 150px !important;
+      }
+    
+      .margin-left-phablet-landscape-16 {
+        margin-left: 160px !important;
+      }
+    
+      .margin-left-phablet-landscape-17 {
+        margin-left: 170px !important;
+      }
+    
+      .margin-left-phablet-landscape-18 {
+        margin-left: 180px !important;
+      }
+    
+      .margin-left-phablet-landscape-19 {
+        margin-left: 190px !important;
+      }
+    
+      .margin-left-phablet-landscape-20 {
+        margin-left: 200px !important;
+      }
+}
+
+@media screen and (max-width: 435px) and (orientation: landscape) {
+    .grid > .col-phone-landscape-1-1 {
+        max-width: 100% !important;
+    }
+
+    .grid > .col-phone-landscape-1-2 {
+        max-width: 50% !important;
+    }
+
+    .grid > .col-phone-landscape-1-3 {
+        max-width: 33.33333333% !important;
+    }
+
+    .grid > .col-phone-landscape-2-3 {
+        max-width: 66.66666666% !important;
+    }
+
+    .flex > .col-phone-landscape-1-1 {
+        width: 100% !important;
+    }
+    
+    .flex > .col-phone-landscape-1-2 {
+        width: 50% !important;
+    }
+    
+    .flex > .col-phone-landscape-1-3 {
+        width: 33.33333333% !important;
+    }
+    
+    .flex > .col-phone-landscape-2-3 {
+        width: 66.66666666% !important;
+    }
+
+      .padding-phone-landscape-0 {
+        padding: 0px !important;
+      }
+    
+      .padding-phone-landscape-1 {
+        padding: 10px !important;
+      }
+    
+      .padding-phone-landscape-2 {
+        padding: 20px !important;
+      }
+    
+      .padding-phone-landscape-3 {
+        padding: 30px !important;
+      }
+    
+      .padding-phone-landscape-4 {
+        padding: 40px !important;
+      }
+    
+      .padding-phone-landscape-5 {
+        padding: 50px !important;
+      }
+    
+      .padding-phone-landscape-6 {
+        padding: 60px !important;
+      }
+    
+      .padding-phone-landscape-7 {
+        padding: 70px !important;
+      }
+    
+      .padding-phone-landscape-8 {
+        padding: 80px !important;
+      }
+    
+      .padding-phone-landscape-9 {
+        padding: 90px !important;
+      }
+    
+      .padding-phone-landscape-10 {
+        padding: 100px !important;
+      }
+    
+      .padding-phone-landscape-11 {
+        padding: 110px !important;
+      }
+    
+      .padding-phone-landscape-12 {
+        padding: 120px !important;
+      }
+    
+      .padding-phone-landscape-13 {
+        padding: 130px !important;
+      }
+    
+      .padding-phone-landscape-14 {
+        padding: 140px !important;
+      }
+    
+      .padding-phone-landscape-15 {
+        padding: 150px !important;
+      }
+    
+      .padding-phone-landscape-16 {
+        padding: 160px !important;
+      }
+    
+      .padding-phone-landscape-17 {
+        padding: 170px !important;
+      }
+    
+      .padding-phone-landscape-18 {
+        padding: 180px !important;
+      }
+    
+      .padding-phone-landscape-19 {
+        padding: 190px !important;
+      }
+    
+      .padding-phone-landscape-20 {
+        padding: 200px !important;
+      }
+    
+      .padding-top-phone-landscape-0 {
+        padding-top: 0px !important;
+      }
+    
+      .padding-top-phone-landscape-1 {
+        padding-top: 10px !important;
+      }
+    
+      .padding-top-phone-landscape-2 {
+        padding-top: 20px !important;
+      }
+    
+      .padding-top-phone-landscape-3 {
+        padding-top: 30px !important;
+      }
+    
+      .padding-top-phone-landscape-4 {
+        padding-top: 40px !important;
+      }
+    
+      .padding-top-phone-landscape-5 {
+        padding-top: 50px !important;
+      }
+    
+      .padding-top-phone-landscape-6 {
+        padding-top: 60px !important;
+      }
+    
+      .padding-top-phone-landscape-7 {
+        padding-top: 70px !important;
+      }
+    
+      .padding-top-phone-landscape-8 {
+        padding-top: 80px !important;
+      }
+    
+      .padding-top-phone-landscape-9 {
+        padding-top: 90px !important;
+      }
+    
+      .padding-top-phone-landscape-10 {
+        padding-top: 100px !important;
+      }
+    
+      .padding-top-phone-landscape-11 {
+        padding-top: 110px !important;
+      }
+    
+      .padding-top-phone-landscape-12 {
+        padding-top: 120px !important;
+      }
+    
+      .padding-top-phone-landscape-13 {
+        padding-top: 130px !important;
+      }
+    
+      .padding-top-phone-landscape-14 {
+        padding-top: 140px !important;
+      }
+    
+      .padding-top-phone-landscape-15 {
+        padding-top: 150px !important;
+      }
+    
+      .padding-top-phone-landscape-16 {
+        padding-top: 160px !important;
+      }
+    
+      .padding-top-phone-landscape-17 {
+        padding-top: 170px !important;
+      }
+    
+      .padding-top-phone-landscape-18 {
+        padding-top: 180px !important;
+      }
+    
+      .padding-top-phone-landscape-19 {
+        padding-top: 190px !important;
+      }
+    
+      .padding-top-phone-landscape-20 {
+        padding-top: 200px !important;
+      }
+    
+      .padding-right-phone-landscape-0 {
+        padding-right: 0px !important;
+      }
+    
+      .padding-right-phone-landscape-1 {
+        padding-right: 10px !important;
+      }
+    
+      .padding-right-phone-landscape-2 {
+        padding-right: 20px !important;
+      }
+    
+      .padding-right-phone-landscape-3 {
+        padding-right: 30px !important;
+      }
+    
+      .padding-right-phone-landscape-4 {
+        padding-right: 40px !important;
+      }
+    
+      .padding-right-phone-landscape-5 {
+        padding-right: 50px !important;
+      }
+    
+      .padding-right-phone-landscape-6 {
+        padding-right: 60px !important;
+      }
+    
+      .padding-right-phone-landscape-7 {
+        padding-right: 70px !important;
+      }
+    
+      .padding-right-phone-landscape-8 {
+        padding-right: 80px !important;
+      }
+    
+      .padding-right-phone-landscape-9 {
+        padding-right: 90px !important;
+      }
+    
+      .padding-right-phone-landscape-10 {
+        padding-right: 100px !important;
+      }
+    
+      .padding-right-phone-landscape-11 {
+        padding-right: 110px !important;
+      }
+    
+      .padding-right-phone-landscape-12 {
+        padding-right: 120px !important;
+      }
+    
+      .padding-right-phone-landscape-13 {
+        padding-right: 130px !important;
+      }
+    
+      .padding-right-phone-landscape-14 {
+        padding-right: 140px !important;
+      }
+    
+      .padding-right-phone-landscape-15 {
+        padding-right: 150px !important;
+      }
+    
+      .padding-right-phone-landscape-16 {
+        padding-right: 160px !important;
+      }
+    
+      .padding-right-phone-landscape-17 {
+        padding-right: 170px !important;
+      }
+    
+      .padding-right-phone-landscape-18 {
+        padding-right: 180px !important;
+      }
+    
+      .padding-right-phone-landscape-19 {
+        padding-right: 190px !important;
+      }
+    
+      .padding-right-phone-landscape-20 {
+        padding-right: 200px !important;
+      }
+    
+      .padding-bottom-phone-landscape-0 {
+        padding-bottom: 0px !important;
+      }
+    
+      .padding-bottom-phone-landscape-1 {
+        padding-bottom: 10px !important;
+      }
+    
+      .padding-bottom-phone-landscape-2 {
+        padding-bottom: 20px !important;
+      }
+    
+      .padding-bottom-phone-landscape-3 {
+        padding-bottom: 30px !important;
+      }
+    
+      .padding-bottom-phone-landscape-4 {
+        padding-bottom: 40px !important;
+      }
+    
+      .padding-bottom-phone-landscape-5 {
+        padding-bottom: 50px !important;
+      }
+    
+      .padding-bottom-phone-landscape-6 {
+        padding-bottom: 60px !important;
+      }
+    
+      .padding-bottom-phone-landscape-7 {
+        padding-bottom: 70px !important;
+      }
+    
+      .padding-bottom-phone-landscape-8 {
+        padding-bottom: 80px !important;
+      }
+    
+      .padding-bottom-phone-landscape-9 {
+        padding-bottom: 90px !important;
+      }
+    
+      .padding-bottom-phone-landscape-10 {
+        padding-bottom: 100px !important;
+      }
+    
+      .padding-bottom-phone-landscape-11 {
+        padding-bottom: 110px !important;
+      }
+    
+      .padding-bottom-phone-landscape-12 {
+        padding-bottom: 120px !important;
+      }
+    
+      .padding-bottom-phone-landscape-13 {
+        padding-bottom: 130px !important;
+      }
+    
+      .padding-bottom-phone-landscape-14 {
+        padding-bottom: 140px !important;
+      }
+    
+      .padding-bottom-phone-landscape-15 {
+        padding-bottom: 150px !important;
+      }
+    
+      .padding-bottom-phone-landscape-16 {
+        padding-bottom: 160px !important;
+      }
+    
+      .padding-bottom-phone-landscape-17 {
+        padding-bottom: 170px !important;
+      }
+    
+      .padding-bottom-phone-landscape-18 {
+        padding-bottom: 180px !important;
+      }
+    
+      .padding-bottom-phone-landscape-19 {
+        padding-bottom: 190px !important;
+      }
+    
+      .padding-bottom-phone-landscape-20 {
+        padding-bottom: 200px !important;
+      }
+    
+      .padding-left-phone-landscape-0 {
+        padding-left: 0px !important;
+      }
+    
+      .padding-left-phone-landscape-1 {
+        padding-left: 10px !important;
+      }
+    
+      .padding-left-phone-landscape-2 {
+        padding-left: 20px !important;
+      }
+    
+      .padding-left-phone-landscape-3 {
+        padding-left: 30px !important;
+      }
+    
+      .padding-left-phone-landscape-4 {
+        padding-left: 40px !important;
+      }
+    
+      .padding-left-phone-landscape-5 {
+        padding-left: 50px !important;
+      }
+    
+      .padding-left-phone-landscape-6 {
+        padding-left: 60px !important;
+      }
+    
+      .padding-left-phone-landscape-7 {
+        padding-left: 70px !important;
+      }
+    
+      .padding-left-phone-landscape-8 {
+        padding-left: 80px !important;
+      }
+    
+      .padding-left-phone-landscape-9 {
+        padding-left: 90px !important;
+      }
+    
+      .padding-left-phone-landscape-10 {
+        padding-left: 100px !important;
+      }
+    
+      .padding-left-phone-landscape-11 {
+        padding-left: 110px !important;
+      }
+    
+      .padding-left-phone-landscape-12 {
+        padding-left: 120px !important;
+      }
+    
+      .padding-left-phone-landscape-13 {
+        padding-left: 130px !important;
+      }
+    
+      .padding-left-phone-landscape-14 {
+        padding-left: 140px !important;
+      }
+    
+      .padding-left-phone-landscape-15 {
+        padding-left: 150px !important;
+      }
+    
+      .padding-left-phone-landscape-16 {
+        padding-left: 160px !important;
+      }
+    
+      .padding-left-phone-landscape-17 {
+        padding-left: 170px !important;
+      }
+    
+      .padding-left-phone-landscape-18 {
+        padding-left: 180px !important;
+      }
+    
+      .padding-left-phone-landscape-19 {
+        padding-left: 190px !important;
+      }
+    
+      .padding-left-phone-landscape-20 {
+        padding-left: 200px !important;
+      }
+    
+      .margin-phone-landscape-0 {
+        margin: 0px !important;
+      }
+    
+      .margin-phone-landscape-1 {
+        margin: 10px !important;
+      }
+    
+      .margin-phone-landscape-2 {
+        margin: 20px !important;
+      }
+    
+      .margin-phone-landscape-3 {
+        margin: 30px !important;
+      }
+    
+      .margin-phone-landscape-4 {
+        margin: 40px !important;
+      }
+    
+      .margin-phone-landscape-5 {
+        margin: 50px !important;
+      }
+    
+      .margin-phone-landscape-6 {
+        margin: 60px !important;
+      }
+    
+      .margin-phone-landscape-7 {
+        margin: 70px !important;
+      }
+    
+      .margin-phone-landscape-8 {
+        margin: 80px !important;
+      }
+    
+      .margin-phone-landscape-9 {
+        margin: 90px !important;
+      }
+    
+      .margin-phone-landscape-10 {
+        margin: 100px !important;
+      }
+    
+      .margin-phone-landscape-11 {
+        margin: 110px !important;
+      }
+    
+      .margin-phone-landscape-12 {
+        margin: 120px !important;
+      }
+    
+      .margin-phone-landscape-13 {
+        margin: 130px !important;
+      }
+    
+      .margin-phone-landscape-14 {
+        margin: 140px !important;
+      }
+    
+      .margin-phone-landscape-15 {
+        margin: 150px !important;
+      }
+    
+      .margin-phone-landscape-16 {
+        margin: 160px !important;
+      }
+    
+      .margin-phone-landscape-17 {
+        margin: 170px !important;
+      }
+    
+      .margin-phone-landscape-18 {
+        margin: 180px !important;
+      }
+    
+      .margin-phone-landscape-19 {
+        margin: 190px !important;
+      }
+    
+      .margin-phone-landscape-20 {
+        margin: 200px !important;
+      }
+    
+      .margin-top-phone-landscape-0 {
+        margin-top: 0px !important;
+      }
+    
+      .margin-top-phone-landscape-1 {
+        margin-top: 10px !important;
+      }
+    
+      .margin-top-phone-landscape-2 {
+        margin-top: 20px !important;
+      }
+    
+      .margin-top-phone-landscape-3 {
+        margin-top: 30px !important;
+      }
+    
+      .margin-top-phone-landscape-4 {
+        margin-top: 40px !important;
+      }
+    
+      .margin-top-phone-landscape-5 {
+        margin-top: 50px !important;
+      }
+    
+      .margin-top-phone-landscape-6 {
+        margin-top: 60px !important;
+      }
+    
+      .margin-top-phone-landscape-7 {
+        margin-top: 70px !important;
+      }
+    
+      .margin-top-phone-landscape-8 {
+        margin-top: 80px !important;
+      }
+    
+      .margin-top-phone-landscape-9 {
+        margin-top: 90px !important;
+      }
+    
+      .margin-top-phone-landscape-10 {
+        margin-top: 100px !important;
+      }
+    
+      .margin-top-phone-landscape-11 {
+        margin-top: 110px !important;
+      }
+    
+      .margin-top-phone-landscape-12 {
+        margin-top: 120px !important;
+      }
+    
+      .margin-top-phone-landscape-13 {
+        margin-top: 130px !important;
+      }
+    
+      .margin-top-phone-landscape-14 {
+        margin-top: 140px !important;
+      }
+    
+      .margin-top-phone-landscape-15 {
+        margin-top: 150px !important;
+      }
+    
+      .margin-top-phone-landscape-16 {
+        margin-top: 160px !important;
+      }
+    
+      .margin-top-phone-landscape-17 {
+        margin-top: 170px !important;
+      }
+    
+      .margin-top-phone-landscape-18 {
+        margin-top: 180px !important;
+      }
+    
+      .margin-top-phone-landscape-19 {
+        margin-top: 190px !important;
+      }
+    
+      .margin-top-phone-landscape-20 {
+        margin-top: 200px !important;
+      }
+    
+      .margin-right-phone-landscape-0 {
+        margin-right: 0px !important;
+      }
+    
+      .margin-right-phone-landscape-1 {
+        margin-right: 10px !important;
+      }
+    
+      .margin-right-phone-landscape-2 {
+        margin-right: 20px !important;
+      }
+    
+      .margin-right-phone-landscape-3 {
+        margin-right: 30px !important;
+      }
+    
+      .margin-right-phone-landscape-4 {
+        margin-right: 40px !important;
+      }
+    
+      .margin-right-phone-landscape-5 {
+        margin-right: 50px !important;
+      }
+    
+      .margin-right-phone-landscape-6 {
+        margin-right: 60px !important;
+      }
+    
+      .margin-right-phone-landscape-7 {
+        margin-right: 70px !important;
+      }
+    
+      .margin-right-phone-landscape-8 {
+        margin-right: 80px !important;
+      }
+    
+      .margin-right-phone-landscape-9 {
+        margin-right: 90px !important;
+      }
+    
+      .margin-right-phone-landscape-10 {
+        margin-right: 100px !important;
+      }
+    
+      .margin-right-phone-landscape-11 {
+        margin-right: 110px !important;
+      }
+    
+      .margin-right-phone-landscape-12 {
+        margin-right: 120px !important;
+      }
+    
+      .margin-right-phone-landscape-13 {
+        margin-right: 130px !important;
+      }
+    
+      .margin-right-phone-landscape-14 {
+        margin-right: 140px !important;
+      }
+    
+      .margin-right-phone-landscape-15 {
+        margin-right: 150px !important;
+      }
+    
+      .margin-right-phone-landscape-16 {
+        margin-right: 160px !important;
+      }
+    
+      .margin-right-phone-landscape-17 {
+        margin-right: 170px !important;
+      }
+    
+      .margin-right-phone-landscape-18 {
+        margin-right: 180px !important;
+      }
+    
+      .margin-right-phone-landscape-19 {
+        margin-right: 190px !important;
+      }
+    
+      .margin-right-phone-landscape-20 {
+        margin-right: 200px !important;
+      }
+    
+      .margin-bottom-phone-landscape-0 {
+        margin-bottom: 0px !important;
+      }
+    
+      .margin-bottom-phone-landscape-1 {
+        margin-bottom: 10px !important;
+      }
+    
+      .margin-bottom-phone-landscape-2 {
+        margin-bottom: 20px !important;
+      }
+    
+      .margin-bottom-phone-landscape-3 {
+        margin-bottom: 30px !important;
+      }
+    
+      .margin-bottom-phone-landscape-4 {
+        margin-bottom: 40px !important;
+      }
+    
+      .margin-bottom-phone-landscape-5 {
+        margin-bottom: 50px !important;
+      }
+    
+      .margin-bottom-phone-landscape-6 {
+        margin-bottom: 60px !important;
+      }
+    
+      .margin-bottom-phone-landscape-7 {
+        margin-bottom: 70px !important;
+      }
+    
+      .margin-bottom-phone-landscape-8 {
+        margin-bottom: 80px !important;
+      }
+    
+      .margin-bottom-phone-landscape-9 {
+        margin-bottom: 90px !important;
+      }
+    
+      .margin-bottom-phone-landscape-10 {
+        margin-bottom: 100px !important;
+      }
+    
+      .margin-bottom-phone-landscape-11 {
+        margin-bottom: 110px !important;
+      }
+    
+      .margin-bottom-phone-landscape-12 {
+        margin-bottom: 120px !important;
+      }
+    
+      .margin-bottom-phone-landscape-13 {
+        margin-bottom: 130px !important;
+      }
+    
+      .margin-bottom-phone-landscape-14 {
+        margin-bottom: 140px !important;
+      }
+    
+      .margin-bottom-phone-landscape-15 {
+        margin-bottom: 150px !important;
+      }
+    
+      .margin-bottom-phone-landscape-16 {
+        margin-bottom: 160px !important;
+      }
+    
+      .margin-bottom-phone-landscape-17 {
+        margin-bottom: 170px !important;
+      }
+    
+      .margin-bottom-phone-landscape-18 {
+        margin-bottom: 180px !important;
+      }
+    
+      .margin-bottom-phone-landscape-19 {
+        margin-bottom: 190px !important;
+      }
+    
+      .margin-bottom-phone-landscape-20 {
+        margin-bottom: 200px !important;
+      }
+    
+      .margin-left-phone-landscape-0 {
+        margin-left: 0px !important;
+      }
+    
+      .margin-left-phone-landscape-1 {
+        margin-left: 10px !important;
+      }
+    
+      .margin-left-phone-landscape-2 {
+        margin-left: 20px !important;
+      }
+    
+      .margin-left-phone-landscape-3 {
+        margin-left: 30px !important;
+      }
+    
+      .margin-left-phone-landscape-4 {
+        margin-left: 40px !important;
+      }
+    
+      .margin-left-phone-landscape-5 {
+        margin-left: 50px !important;
+      }
+    
+      .margin-left-phone-landscape-6 {
+        margin-left: 60px !important;
+      }
+    
+      .margin-left-phone-landscape-7 {
+        margin-left: 70px !important;
+      }
+    
+      .margin-left-phone-landscape-8 {
+        margin-left: 80px !important;
+      }
+    
+      .margin-left-phone-landscape-9 {
+        margin-left: 90px !important;
+      }
+    
+      .margin-left-phone-landscape-10 {
+        margin-left: 100px !important;
+      }
+    
+      .margin-left-phone-landscape-11 {
+        margin-left: 110px !important;
+      }
+    
+      .margin-left-phone-landscape-12 {
+        margin-left: 120px !important;
+      }
+    
+      .margin-left-phone-landscape-13 {
+        margin-left: 130px !important;
+      }
+    
+      .margin-left-phone-landscape-14 {
+        margin-left: 140px !important;
+      }
+    
+      .margin-left-phone-landscape-15 {
+        margin-left: 150px !important;
+      }
+    
+      .margin-left-phone-landscape-16 {
+        margin-left: 160px !important;
+      }
+    
+      .margin-left-phone-landscape-17 {
+        margin-left: 170px !important;
+      }
+    
+      .margin-left-phone-landscape-18 {
+        margin-left: 180px !important;
+      }
+    
+      .margin-left-phone-landscape-19 {
+        margin-left: 190px !important;
+      }
+    
+      .margin-left-phone-landscape-20 {
+        margin-left: 200px !important;
+      }
 }
