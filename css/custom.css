@@ -1,5 +1,5 @@
 .item-100.height-40 {
-    height: 40vh;
+    height: 35vh;
 }
 
 .item-100.height-30 {
@@ -26,7 +26,7 @@
 
 @media (min-width: 1240px) {
     .item-100.height-desktop-40 {
-        height: 40vh !important;
+        height: 35vh !important;
     }
     .item-100.height-desktop-30 {
         height: 30vh !important;
@@ -50,7 +50,7 @@
 
 @media (max-width: 767px) {
     .item-100.height-phablet-40 {
-        height: 40vh !important;
+        height: 35vh !important;
     }
     .item-100.height-phablet-30 {
         height: 30vh !important;
@@ -62,7 +62,7 @@
 
 @media (max-width: 435px) {
     .item-100.height-phone-40 {
-        height: 40vh !important;
+        height: 35vh !important;
     }
     .item-100.height-phone-30 {
         height: 30vh !important;
@@ -72,9 +72,21 @@
     }
 }
 
+@media (max-width: 320px) {
+  .item-100.height-phone-40 {
+      height: 35vh !important;
+  }
+  .item-100.height-phone-30 {
+      height: 30vh !important;
+  }
+  .item-100.height-phone-15 {
+      height: 18vh !important;
+  }
+}
+
 @media screen and (min-width: 1240px) and (orientation: landscape) {
     .item-100.height-desktop-40 {
-        height: 40vh !important;
+        height: 30vh !important;
     }
     .item-100.height-desktop-30 {
         height: 30vh !important;
@@ -86,7 +98,7 @@
 
 @media screen and (max-width: 1023px) and (orientation: landscape) {
     .item-100.height-tablet-landscape-40 {
-        height: 40vh !important;
+        height: 30vh !important;
     }
     .item-100.height-tablet-landscape-30 {
         height: 30vh !important;
@@ -98,7 +110,7 @@
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
     .item-100.height-phablet-landscape-40 {
-        height: 40vh !important;
+        height: 30vh !important;
     }
     .item-100.height-phablet-landscape-30 {
         height: 30vh !important;
@@ -110,7 +122,7 @@
 
 @media screen and (max-width: 435px) and (orientation: landscape) {
     .item-100.height-phone-landscape-40 {
-        height: 40vh !important;
+        height: 30vh !important;
     }
     .item-100.height-phone-landscape-30 {
         height: 30vh !important;
@@ -119,6 +131,19 @@
         height: 15vh !important;
     }
 }
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  .item-100.height-phone-landscape-40 {
+      height: 24vh !important;
+  }
+  .item-100.height-phone-landscape-30 {
+      height: 30vh !important;
+  }
+  .item-100.height-phone-landscape-15 {
+      height: 15vh !important;
+  }
+}
+
 
 @media screen and (max-width: 1023px) and (orientation: landscape) {
     .grid > .col-tablet-landscape-1-1 {
@@ -2801,11 +2826,14 @@
         margin-left: 200px !important;
       }
 }
-.arrow-White{
-    background-color: rgba(255, 255, 255, 0.4);
-    z-index: 2;
-}
+
 
 .productImg{
     height: 76vh;
+    width:100%;
+}
+
+.arrow-White{
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 2;
 }
