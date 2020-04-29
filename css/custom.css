@@ -2837,3 +2837,8 @@
   background-color: rgba(255, 255, 255, 0.4);
   z-index: 2;
 }
+
+body.slides {
+  font-family: "Helvetica Neue", "Helvetica","Arial",sans-serif;
+}
+
