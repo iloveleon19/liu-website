@@ -2829,8 +2829,15 @@
 
 
 .productImg{
-    width:100vw;
-    max-width: 100vw;
+  width: 100%;
+  max-width: 100vw;
+  height: 80vh;
+  max-height: 100vh;
+}
+
+.main_productImg {
+  width:100vw;
+  max-width: 100vw;
 }
 
 .arrow-White{
@@ -2846,3 +2853,33 @@ body.slides {
   height: auto;
 }
 
+  .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  }
+
+
+  :root {
+      --swiper-theme-color: #202020 !important;
+  }
