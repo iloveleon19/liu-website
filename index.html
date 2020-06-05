@@ -22,31 +22,7 @@
   <script src="js/swiper.min.js?41331" type="text/javascript"></script>
 
   <title>劉承鑫建築事務所</title>
-  <script>
-    $(document).ready(function(){
 
-var theWindow        = $(window),
-    $bg              = $(".bg"),
-    aspectRatio      = $bg.width() / $bg.height();
-
-function resizeBg() {
-
-        if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
-            $bg
-                .removeClass()
-                .addClass('bgheight');
-        } else {
-            $bg
-                .removeClass()
-                .addClass('bgwidth');
-        }
-
-}
-
-theWindow.resize(resizeBg).trigger("resize");
-
-});
-  </script>
 </head>
 <body class="slides chain animated">
   <svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none" id="customSvgLibrary">
@@ -182,25 +158,25 @@ theWindow.resize(resizeBg).trigger("resize");
       <div class="container">
                 <ul class="slider animated ae-1 fromAbove inlineBlock clickable popupContent disableSelect bannerlist" data-slider-id="75-1">
                   <li class="selected">
-                    <img src="assets/img/gallery-75-7.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-7.jpg" class="bgx" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-6.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-6.jpg" class="bgx" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-5.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-5.jpg" class="bgx" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-1.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-1.jpg" class="bgx" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-3.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-3.jpg" class="bgx" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-4.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-4.jpg" class="bgx" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-2.jpg" class="bg" alt="Image"/>
+                    <img src="assets/img/gallery-75-2.jpg" class="bgx" alt="Image"/>
                   </li>
                 </ul>
       </div>
@@ -212,4 +188,35 @@ theWindow.resize(resizeBg).trigger("resize");
   <div class="progress-bar blue"></div>
 
 </body>
+
+<script>
+  $(document).ready(function(){
+      function resizeBg() {
+        var wh = $(window).height(), ww = $(window).width(), h, w, ih, iw;
+        $(".selected>img.bgx").each(function(){
+          ih = $(this).height();
+          iw = $(this).width();
+          if ( (wh / ih) <= (ww / iw) ) { // 圖片寬小於視窗，高大於視窗
+            h = ih * (ww / iw);
+            w = iw * (ww / iw);
+            $(this).height(h);
+            $(this).width(w);
+            $(this).css({'max-height' : h + 'px'});
+            $(this).css({'max-width' : w + 'px'});
+          } else { // 圖片高小於視窗，寬大於視窗
+            h = ih * (wh / ih);
+            w = iw * (wh / ih);
+            $(this).height(h);
+            $(this).width(w);
+            $(this).css({'max-height' : h + 'px'});
+            $(this).css({'max-width' : w + 'px'});
+          }
+        })
+      }
+
+      $(window).resize(resizeBg).trigger("resize");
+});
+</script>
+
+
 </html>
