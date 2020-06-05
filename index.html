@@ -6,6 +6,7 @@
 
   <!-- jQuery 3.3.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
   <!-- Slide -->
   <!--  Compressed Styles -->
@@ -21,6 +22,31 @@
   <script src="js/swiper.min.js?41331" type="text/javascript"></script>
 
   <title>劉承鑫建築事務所</title>
+  <script>
+    $(document).ready(function(){
+
+var theWindow        = $(window),
+    $bg              = $(".bg"),
+    aspectRatio      = $bg.width() / $bg.height();
+
+function resizeBg() {
+
+        if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+            $bg
+                .removeClass()
+                .addClass('bgheight');
+        } else {
+            $bg
+                .removeClass()
+                .addClass('bgwidth');
+        }
+
+}
+
+theWindow.resize(resizeBg).trigger("resize");
+
+});
+  </script>
 </head>
 <body class="slides chain animated">
   <svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none" id="customSvgLibrary">
@@ -152,69 +178,31 @@
 
   <!-- one -->
   <section class="slide fade-6 kenBurns whiteSlide">
-    <div class="content photo_height">
+    <div class="content">
       <div class="container">
-        <div class="wrap noSpaces flex">
- 
-          <!-- <div class="noSelect margin-top-8 margin-bottom-8">
-            <div class="relative swiper-container ">
-              <div class=" ae-5 fromLeft padding-1 margin-left-3 arrow-White swiper-button-prev" data-slider-id="82" data-slider-action="prev"></div>
-              <div class=" ae-5 fromRight padding-1 margin-right-3 arrow-White swiper-button-next" data-slider-id="82" data-slider-action="next"></div>
-              <div class="slider clickable animated margin-bottom-2 ae-1 fadeIn swiper-wrapper" data-slider-id="82">
-                <div class="selected swiper-slide ">
-                  <img src="assets/img/building1.jpg" class="productImg" alt="iPhone"/>
-                </div>
-                <div class="swiper-slide ">
-                  <img src="assets/img/building4.jpg" class="productImg" alt="iPhone"/>
-                </div>
-                <div class="swiper-slide ">
-                  <img src="assets/img/building5.jpg" class="productImg" alt="iPhone"/>
-                </div>
-                <div class="swiper-slide ">
-                  <img src="assets/img/building6.jpg" class="productImg" alt="iPhone"/>
-                </div>
-              </div>
-
-              <div class="  ae-3 fromBottom swiper-pagination" data-slider-id="82">
-              </div>
-            </div>
-          </div> -->
-
-
-            <div class="col-12-12 noSelect">
-              <div class="relative ae-5">
-
-                <!-- <div class="leftControl-82 ae-5 fromLeft selected" data-popup-id="75-1" data-slider-id="75-1" data-slider-action="prev"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left"></use></svg></div> -->
-                <!-- <div class="rightControl-82 ae-5 fromRight" data-popup-id="75-1" data-slider-id="75-1" data-slider-action="next"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use></svg></div> -->
-                <ul class="slider animated ae-1 fromAbove inlineBlock clickable popupContent disableSelect" data-slider-id="75-1" style="display: inline-block;">
-    
+                <ul class="slider animated ae-1 fromAbove inlineBlock clickable popupContent disableSelect bannerlist" data-slider-id="75-1">
                   <li class="selected">
-                    <img src="assets/img/gallery-75-7.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-7.jpg" class="bg" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-6.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-6.jpg" class="bg" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-5.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-5.jpg" class="bg" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-1.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-1.jpg" class="bg" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-3.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-3.jpg" class="bg" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-4.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-4.jpg" class="bg" alt="Image"/>
                   </li>
                   <li>
-                    <img src="assets/img/gallery-75-2.jpg" class="main_productImg" alt="Image"/>
+                    <img src="assets/img/gallery-75-2.jpg" class="bg" alt="Image"/>
                   </li>
-
                 </ul>
-              </div>
-            </div>
-  
-        </div>
       </div>
     </div>
     <!-- <div class="background" style="background-image:url(assets/img/background/img-10.jpg)"></div> -->
