@@ -154,9 +154,9 @@
 
   <!-- one -->
   <section class="slide fade-6 kenBurns whiteSlide">
-    <div class="content">
+    <div class="content photo_height">
       <div class="container">
-                <ul class="slider animated ae-1 fromAbove inlineBlock clickable popupContent disableSelect bannerlist" data-slider-id="75-1">
+                <ul class="slider fromAbove inlineBlock clickable popupContent disableSelect bannerlist" data-slider-id="75-1">
                   <li class="selected">
                     <img src="assets/img/gallery-75-7.jpg" class="bgx" alt="Image"/>
                   </li>
@@ -213,6 +213,13 @@
           }
         })
       }
+      var banner =  $("ul.bannerlist > li").length;
+
+      if (banner == 1) {
+        $(".bannerlist").removeClass('slider');
+        console.log(banner);
+      }
+      
 
       $(window).resize(resizeBg).trigger("resize");
 });

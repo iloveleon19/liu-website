@@ -2849,10 +2849,6 @@ body.slides {
   font-family: "Helvetica Neue", "Helvetica","Arial",sans-serif;
 }
 
-.photo_height {
-  height: auto;
-}
-
   .swiper-container {
       width: 100%;
       height: 100%;
@@ -2883,8 +2879,17 @@ body.slides {
   :root {
       --swiper-theme-color: #202020 !important;
   }
-  
-.bannerlist{
-  width: 100%;
-  height: auto;
+
+.photo_height {
+    height: auto;
+}
+
+.bannerlist li{
+  /* max-height: 900px;
+  height: auto; */
+  overflow:hidden;
+}
+
+.scrollhide{
+  overflow:hidden !important;
 }
